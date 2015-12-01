@@ -1,0 +1,800 @@
+%%%% Guide til bibtex og litteratur.bib %%%%
+
+% Alle kilder angives efter Harvard-metoden og vil i rapporten fremst? med [FORFATTER, ?R] eller mere pr?cist [EFTERNAVN, ?R].
+
+% Nederst findes eksempler p? kildeangivelser af typerne manual, book, article, techreport og misc.
+	% - Manual bruges ved henvisninger fra internettet, idet URL-funktionen findes her
+	% - Book bruges ved helt almindelige b?ger
+	% - Article bruges ved artikler og udgivelser
+	% - Techreport kan bruges ved mindre udgivelser, hvor kun titel, forfatter og ?r er n?dvendig eller tilg?ngelig
+	% - Misc kan bruges ved det, der falder udenfor de andre kategorier - interview, forel?sninger, foredrag osv. 
+
+% Hvis der er flere forfattere p? en kilde, SKAL de listes med 'and' imellem dem - ogs? ved 3 og derover (f.eks. FORFATTER 1 and FORFATTER 2 and FORFATTER 3). N?r kildelisten bygges i rapporten, vil der ved 2 forfattere komme til at st? [EFTERNAVN 1 og EFTERNAVN 2, ?R] og ved 3 forfattere og derover komme til at st? [EFTERNAVN 1 et. al, ?R]. 
+
+% Ved almindelige forfatternavne skal der v?re ?t s?t tuborg-parenteser ved Author (f.eks. author = {H. C. Andersen}). Ved andre navne (f.eks. virksomheder, hjemmesider, grupper, r?d, n?vn osv.) skal der v?re 2 s?t tuborg-parenteser ved Author (f.eks. author = {{Dansk Standard}}). Begrundelse: med 2 s?t tuborg-parenteser skrives hele parentesen ud som forfatter, [Dansk Standard, ?R]. Alternativt ville der i eksemplet bare komme til at st? [Standard, ?R].
+
+
+%--- Computational Physics -----------------------------------------------------------%
+@misc{CompLectureNotes,
+  author        = {Morten Hjorth-Jensen},
+  title         = {Computational Physics - Lecture Notes Fall 2015},
+  month         = {August},
+  year          = {2015},
+  publisher={Department of Physics, University of Oslo}
+}
+
+
+%--- Bachelor -----------------------------------------------------------%
+
+@misc{DrudeLucht,
+    author    = {Robert P. Lucht},
+    title     = {Drude Model
+for dielectric constant of metals.},
+    %howpublished = {},
+    %year     = {},
+    %month    = {},
+    note     = {Powerpoint},
+}
+
+@manual{SRIM,
+	author ={J. F.. Ziegler},
+	title ={SRIM Software},
+	address={URL: \url{http://www.srim.org}},
+	year ={2013},
+	note ={}
+}
+
+@techreport{THzpulses,
+		title = {Emission and Detection of TerahertzPulses from Photoconductive Antennas},
+		author = {Niels Bache and Mads Brincker},
+		year = {2014}
+}
+
+@manual{Helios,
+	author ={Ultrafast Systems LLC},
+	title ={Helios Femtosecond Transient Absorption Spectrometer - User Manual},
+	year ={2006},
+}
+
+@manual{Tsunami,
+	author ={Spectra-Physics},
+	title ={Spitfire, Ti:Sapphire Regenerative Amplifier Systems, User's Manual},
+	year ={2002},
+}
+
+@manual{Spitfire,
+	author ={Spectra-Physics},
+	title ={Tsunami, Mode-locked Ti:Sapphire Laser, User's Manual},
+	year ={2002},
+}
+
+@misc{RefractiveIndexDatabase,
+  author = {M. N. Polyanskiy},
+  title = {{Refractive index database}},
+  howpublished = {URL: \url{http://refractiveindex.info}},
+  %year = {}, 
+  note = "[Online access; 19/05-2014]"
+}
+
+@misc{DrudeModelSlides1,
+  author = {Robert P. Lucht},
+  title = {{Drude Model for dielectric constant of metals}},
+  howpublished = {URL: \url{http://optics.hanyang.ac.kr/~shsong/27-Metals.pdf}},
+  %year = {}, 
+  note = "[Online access; 28/04-2014]"
+}
+
+@book{PrinciplesOptics,
+    title = {Principles of Optics},
+    author = {Max Born and Emil Wolf},
+    year = {1999},
+    %number = {ISBN: 0-521-642221},
+    publisher = {Cambridge University Press},
+    %series = {7},
+}
+
+@book{Suhr,
+    title = {Physics of Semiconductor Devices},
+    author = {Michael Suhr},
+    year = {1990},
+    %number = {ISBN: },
+    publisher = {Prentice-Hall},
+    %series = {10},
+}
+
+@book{OptElecPropSi,
+    title = {Some Optical and Electrical Properties of a Lasergenerated Free-carrier Plasma in Si},
+    author = {Johannes Petrus Woerdman},
+    year = {1975},
+    %number = {ISBN: },
+    %publisher = {},
+    %series = {},
+}
+
+@book{IntroKvantBog,
+    title = {Introduction to Quantum Mechanics},
+    author = {A. C. Phillips},
+    year = {2003},
+    %number = {ISBN 13: 9780470853245},
+    %publisher = {Wiley},
+    %series = {},
+}
+
+@book{FundSolidStateEng,
+    title = {Fundamentals of Solid State Engineering},
+    author = {Manijeh Razeghi},
+    year = {2009},
+    %number = {ISBN: 978-0-387-92167-9},
+    publisher = {Springer},
+    %series = {3},
+}
+
+@book{Landolt,
+    title = {Electronic, Transport, Optical and Other Properties. (Series: Group III Condensed Matter)},
+    author = {{The Landolt-B\"{o}rnstein Database}},
+    year = {2002},
+    %number = {ISBN: 987-3-540-42876-3},
+    publisher = {Springer},
+    %series = {41A1b},
+}
+
+@book{PhysicsHandbook,
+    title = {Physics Handbook for Science and Engineering},
+    author = {Carl Nordling and Jonny \"{O}sterman},
+    year = {2006},
+    %number = {ISBN: 987-91-04453-8},
+    publisher = {Studentlitteratur AB},
+    %series = {8th edition},
+}
+
+@book{UltrafastSpec,
+    title = {Ultrafast Spectroscopy of Semiconductors and Semiconductor Nanostructures},
+    author = {Jagdeep Shah},
+    year = {1996},
+    %number = {ISBN: 3-540-60912-1},
+    publisher = {Springer},
+}
+
+@book{FoundElectroTheory,
+    title = {Foundations of Electromagnetic Theory},
+    author = {John R. Reitz and Frederick J. Milford and Robert W. Christy},
+    year = {1993},
+    %number = {ISBN 10: 0-321-58174-1; ISBN 13: 978-0-321-58174-7},
+    publisher = {PEARSON},
+    %series = {4th edition},
+}
+
+@article{MajorPropGaAs,
+    title = {Semiconducting and other major properties of gallium arsenide},
+    author = {J. S. Blakemore}, 
+    year = {1982},
+    journal = {Appl. Phys. Lett.},
+    volume  = {10},
+    pages   = {R123--R181},
+    publisher = {American Institute of Physics},
+}
+
+@article{SelfConsOptPropIntSi,
+    title = {Self-consistent optical parameters of intrinsic silicon at 300 K including temperature coefficients},
+    author = {Martin A. Green}, 
+    year = {2008},
+    journal = {Solar Energy Materials and Solar Cells},
+    volume  = {92},
+    pages   = {1305--1310},
+    publisher = {Elsevier},
+}
+
+@article{AugerGaAs,
+    title = {Auger recombination in intrinsic {G}a{A}s},
+    author = {U. Strauss and W. W. R{\"u}hle and K. K{\"o}hler}, 
+    year = {1993},
+    journal = {Appl. Phys. Lett.},
+    volume  = {62},
+    pages   = {55--57},
+    publisher = {American Institute of Physics},
+}
+
+@article{CarrierLifetime,
+    title = {Carrier lifetime versus ion-implantation dose in silicon on sapphire},
+    author = {F. E. Doany and D. Grischkowsky and C.-C. Chi},
+    year = {1986},
+    journal = {Appl. Phys. Lett.},
+    volume  = {50},
+    pages   = {460--462},
+    publisher = {American Institute of Physics},
+}
+@article{CarrierConcentration,
+    title = {Reassessment of the intrinsic carrier density temperature dependence
+in crystalline silicon},
+    author = {Romain Couderc and Mohamed Amara, and Mustapha Lemiti},
+    year = {2013},
+    journal = {Journal of Applied Physics},
+    volume  = {115},
+    pages   = {093705-1--093705-4},
+    publisher = {American Institute of Physics},
+}
+
+@article{FemtosecondTrans,
+    title = {Femtosecond transient reflectivity measurements as a probe for process-induced defects in silicon},
+    author = {A. Esser and W. K\"{u}tt and M. Strahnen and G. Maidorn and H. Kurz},
+    year = {1990},
+    journal = {Applied Surface Science},
+    volume  = {46},
+    pages   = {446--450},
+    publisher = {Elsevier Science Publishers B.V.},
+}
+
+@article{Subpicosecond,
+    title = {Subpicosecond surface-restricted carrier and thermal dynamics by transient reflectivity measurements},
+    author = {Takayuki Tanaka and Akira Harata and Tsuguo Sawada},
+    year = {1997},
+    journal = {Appl. Phys. Lett.},
+    volume  = {82},
+    pages   = {4033--4038},
+    publisher = {American Institute of Physics},
+}
+
+@book{Optikbog,
+    title = {{Optics}},
+    author = {Eugene Hecht},
+    year = {2002},
+    %number = {ISBN: 0 321 18878 0},
+    publisher = {Addison Weesley},
+    %edition = {4},
+}
+
+@book{OptPropSolids,
+    title = {{Optical Properties of Solids }},
+    author = {Mark Fox},
+    year = {2010},
+    %number = {ISBN 10: 0199573379, ISBM 13: 978-0199573370},
+    publisher = {Oxford University Press},
+    %edition = {2},
+}
+
+%--- P3-Matematik-ting --------------------------------------------------%
+@misc{SqeezeTheorem,
+  author = {Minah Oh},
+  title = {{MATH235 Calculus 1 - Proof of the Sqeeze Theorem}},
+  howpublished = {URL: \url{http://educ.jmu.edu/~ohmx/squeeze_proof.pdf}},
+  %year = {2008}, 
+  note = "[Online; adgang 14/12-2013]"
+}
+
+@book{ConvexSetsandTheirApplications,
+    title = {{Convex Sets and Their Applications}},
+    author = {Steven R. Lay},
+    year = {1982},
+    %number = {ISBN 10: 0 486 45803 2, ISBN 13: 978 0 486 45803 8},
+    publisher = {Dover Publications, Inc},
+    %series = {},
+}
+
+@book{StraightforwardMatAna,
+    title = {{Mathematical Analysis: A Straightforward Approach}},
+    author = {K.G. Binmore},
+    year = {1977},
+    %number = {ISBN 10: },
+    publisher = {Cambridge University Press},
+    %series = {},
+}
+
+@book{Analysebog,
+    title = {{Analysis with an Introduction to Proof}},
+    author = {Steven R. Lay},
+    year = {2013},
+    %number = {ISBN 10: 0-321-90441-9; ISBN 13: 978-0-321-90441-6},
+    publisher = {Pearson},
+    series = {5th edition},
+}
+
+@misc{Ferguson,
+    author    = "Thomas S. Ferguson",
+    title     ={{Linear Programming - A Concise Introduction}},
+    %howpublished = "",
+    %year     = "XXXX",
+    %month    = "",
+    %note     = "",
+}
+
+@misc{FriStudieHoriaNoter,
+    author    = "Horia Cornean",
+    title     = {{On the Local Extrema for Functions of Several Variables}},
+    %howpublished = "",
+    year     = "2012",
+    month    = "November",
+    %note     = "",
+}
+
+@misc{Analysenoter,
+    author    = "Horia Cornean",
+    title     = {{Notes for Analyse 1 and Analyse 2}},
+    %howpublished = "",
+    year     = "2013",
+    month    = "September",
+    %note     = "",
+}
+
+@book{TheoLinIntProg,
+    title = {{Theory of Linear and Integer Programming}},
+    author = {Alexander Schrijver},
+    year = {1986},
+    %number = {ISBN: 0 471 90854 1},
+    publisher = {John Wiley \& Sons},
+}
+
+@book{LinAlgAndApp,
+    title = {{Linear Algebra and Its Applications}},
+    author = {David C. Lay},
+    year = {2006},
+    %number = {ISBN: 0 321 28713 4},
+    publisher = {Pearson},
+    series = {3rd edition},
+}
+
+@book{IntroRealAna,
+    title = {{Introduction to Real Analysis}},
+    author = {William F. Trench},
+    year = {2011},
+    %number = {ISBN: 0 13 045786 8},
+    publisher = {Pearson Education},
+    series = {1.06},
+}
+
+@misc{Vektorkonvergens,
+  author = {Allistar Savage},
+  title = {{MATH3120 Analysis III}},
+  howpublished = {URL: \url{http://mysite.science.uottawa.ca/asavag2/mat3120/notes/MAT%203120%20-%20Analysis%20III.pdf}}, 
+  note = "[Online; adgang 17/12-2013]"
+}
+
+@misc{LinAlgNoter,
+  author = {Naechtergaele, Schilling, Lankham},
+  title = {{Linear Algebra as An Introduction to Abstract Mathematics}},
+  howpublished = {URL: \url{https://www.math.ucdavis.edu/~anne/mat67_course_notes.pdf}, 
+  note = "[Online; adgang 17/12-2013]"
+}
+%--- P3-ting --------------------------------------------------%
+
+
+@misc{KirchoffvsFaraday,
+	title = {Lec 16 | MIT 8.02 Electricity and Magnetism, Spring 2002},
+	howpublished = {URL: http://www.youtube.com/watch?v=G3eI4SVDyME},
+	year = {2008},
+}
+
+@misc{Selfinductance,
+	title = {Lec 20 | MIT 8.02 Electricity and Magnetism, Spring 2002},
+	howpublished = {URL: http://www.youtube.com/watch?v=UpO6t00bPb8&feature=relmfu},
+	year = {2008},
+}
+
+@book{EssUniPhys2,
+    title = {Essential University Physics Volume 2},
+    author = {Richard Wolfson},
+    year = {2007},
+    %number = {ISBN 10: 0-321-76194-4; ISBN 13: 978-0-321-76194-1},
+    publisher = {PEARSON},
+    %series = {2nd edition},
+}
+
+@article{AC-theory,
+    title = {Alternating-current circuit theory},
+    author = {J. O. Scanlan and A. E. Bailey},
+    year = {2012},
+    publisher = {McGraw-Hill Companies},
+}
+
+@article{DC-theory,
+    title = {Direct-current circuit theory},
+    author = {Robert L. Ramey},
+    year = {2012},
+    publisher = {McGraw-Hill Companies},
+}
+@article{Oscilloscope,
+    title = {Oscilloscope},
+    author = {R. B. D. Knight},
+    year = {2008},
+    publisher = {McGraw-Hill Companies},
+}
+
+@book{SemiPhys,
+    title = {Semiconductor Physics and Devices},
+    author = {Donald A. Neamen},
+    year = {2012},
+    publisher = {McGraw-Hill},
+} %number = {ISBN: 978-007-108902-9}, series = {4 th edition},
+
+@book{FundSemiPhys,
+    title = {Fundamentals of Semiconductor},
+    author = {Edward S. Yang},
+    year = {1978},
+    %number = {ISBN: 0-07-072236-6},
+    publisher = {McGraw-Hill},
+}
+
+%--- P2-ting --------------------------------------------------%
+@book{EssUniPhys1,
+    title = {Essential University Physics Volume 1},
+    author = {Richard Wolfson},
+    year = {2007},
+    number = {ISBN 10: 0-320-76193-6; ISBN 13: 978-0-321-76193-4},
+    publisher = {PEARSON},
+    series = {2nd edition},
+}
+
+@book{Databog,
+    title = {Databog - Fysik Kemi},
+    author = {Erik Strandgaard Andersen and Paul Jespersgaard and Ove Gr�nb�k �stergaard},
+    year = {2005},
+    number = {ISBN nr: 87-872-2959-5},
+    publisher = {F \& K Forlaget},
+    series = {10. udgave, 5. oplag},
+}
+
+% PV-g?gl
+@book{Naturvidenskabsteori,
+    title = {Naturvidenskabsteori},
+    author = {Helge Kragh and Stig Andur Pedersen},
+    year = {1981},
+    number = {ISBN: 87-17-02598-2},
+    publisher = {Nyt Nordisk Forlag Arnold Busk A/S},
+}
+
+@book{SRP-bogen,
+    title = {SRP-bogen},
+    author = {Niels Randbo Back and Jean Balmisse Thomsen},
+    year = {2009},
+    publisher = {Student Media},
+}
+
+@article{GospelOfScience,
+    title = {Social Constructivism, the Gospel of Science, and the Teaching of Physics},
+    author = {Helge Kragh},
+    year = {1998},
+    publisher = {Kluwer Academic Publisher},
+}
+
+% Baggrundsmateriale fra moodle
+@article{Libbrecht,
+    title = {Interferometric measurement of the resonant absorption and refractive index in 	rubidium gas},
+    author = {K. G. Libbrecht and M. W. Libbrecht},
+    year = {2006},
+    publisher = {Department of Physics, California Institute of Technology, Pasadena, 			California 91125}
+
+}
+@article{DLS,
+   author = {TeachSpin},
+   title = {Diode Laser Spectroscopy},
+   volume = {2.0},
+   year = {2009}
+}
+
+% Supplerende materiale fra moodle
+
+% Selvfunden materiale
+
+@manual{EMUNatMet,
+	author={Hans J�rn Schmidt},	
+	title={Den naturvidenskabelige arbejdsmetode},
+	address={URL: \url{http://www.emu.dk/gsk/fag/fys/ckf/fase1/1aot/videnskabeligt_arbejde/den_videnskabelige_arbejdsmetode/index.html}},
+	year={2007},
+	note={Hentet: 21-05-2012}
+}
+
+@manual{sarahgraff,
+	author={Sarah Graff},	
+	title={MCAT Chemistry Study Guide Part 1},
+	address={URL: \url{http://www.sarahgraff.com/school/mcat/chemistry/mcat-chemistry-study-guide-part-1-electronic-structure/}},
+	year={2011},
+	note={Hentet: 21-05-2012}
+}
+@manual{techreview,
+	author={KFC},
+	title={Acoustic Black HoleCreated in Bose-Einstein Condensate},
+	address={URL: \url{http://www.technologyreview.com/blog/arxiv/23625/}},
+	year={2009},
+	note={Hentet: 21-05-2012}
+}
+@manual{BEK,
+	author={Jan Arlt},
+	title ={Bose-Einstein Kondensater},
+	address={URL: \url{http://phys.au.dk/en/outreach/visitors-page/exercises/bose-einstein-kondensater/}},
+	year={2012},
+	note={Hentet: 21-05-2012}
+}
+
+@manual{BEK DenStoreDanske,
+	author={Henrik Smith},
+	title={Bose-Einstein-kondensat},			
+	address={URL: \url{http://www.denstoredanske.dk/It,_teknik_og_naturvidenskab/Fysik/Statistisk_fysik_og_termodynamik/Bose-Einstein-kondensation/},
+	note={Hentet: 21-05-2012}
+}
+@book{Camparo,
+   author = {J. C. Camparo},
+   title = {The diode laser in atomic physics},
+   volume = {26, no. 5},
+   pages = {443-446},
+   year = {1985}
+}
+@manual{scottishenterprise,
+	author ={Miles Padgett},
+	title ={Breath monitoring using laser spectroscopy to screen for lung cancer and cardiovascular disease},
+	address={URL: \url{http://www.scottish-enterprise.com/start-your-business/proof-of-concept-programme/proof-of-concept-projects/breath-monitoring-using-laser-spectroscopy-to-screen-for-lung-cancer-and-cardiovascular-disease}},
+	note={Hentet: 21-05-2012}
+}
+
+@manual{Kohaerens,
+	author ={Jes Ole Henningsen and Klaus M�lmer},
+	title ={Koh�rens},
+address={URL: \url{http://www.denstoredanske.dk/It,_teknik_og_naturvidenskab/Fysik/Svingninger_i_faste_stoffer,_v%C3%A6sker_mv./koh%C3%A6rens}},
+	year ={2009},
+	note={Hentet: 21-05-2012}
+}
+
+@manual{Interferens,
+	author ={Jes Ole Henningsen},
+	title ={Interferens},
+address={URL: \url{http://www.denstoredanske.dk/It,_teknik_og_naturvidenskab/Fysik/Svingninger_i_faste_stoffer,_v%C3%A6sker_mv./interferens}},
+	year={2009},	
+	note={Hentet: 21-05-2012}
+}
+
+@manual{CERN,
+	author ={Ulrik Andersen},
+	title ={Hurtigere-end-lyset-partikler skyldes l�s lysleder},
+address={URL: \url{http://ing.dk/artikel/126971-hurtigere-end-lyset-partikler-skyldes-loes-lysleder}},
+	year={2012},	
+	note={Hentet: 21-05-2012}
+}
+
+@article{ASLinewidth,
+    title = {Linewidth},
+    author = {Francis M. Pipkin},
+    year = {2008},
+    publisher = {?McGraw-Hill Companies}
+} %Link: http://www.accessscience.com.zorac.aub.aau.dk
+
+@article{ASResonance,
+    title = {Resonance (acoustics and mechanics)},
+    author = {Lawrence E. Kinsler},
+    year = {2008},
+    publisher = {?McGraw-Hill Companies}
+} %Link: http://www.accessscience.com.zorac.aub.aau.dk/popup.aspx?id=582800&name=print
+
+@article{ASVaporPressure,
+    title = {Vapor Pressure},
+    author = {Norman H. Nachtrieb},
+    year = {2008},
+    publisher = {?McGraw-Hill Companies}
+} %Link: http://www.accessscience.com.zorac.aub.aau.dk/content.aspx?searchStr=Clausius+clapeyron&id=727700
+
+@book{Optics,
+    title = {Optics},
+    author = {Eugene Hecht and Alfred Zajac},
+    year = {1974},
+    publisher = {Addison-Wesley Publishing},
+}
+
+@book{Kompendium,
+    title = {Kompendium i komplekse tal og differentialligninger},
+    author = {Bo Rosbjerg and Henrik Vie Christensen },
+    year = {2011},
+}
+
+@book{Feynman,
+   title={The Feynman lectures on Physics},
+   author={Richard P. Feynman, Robert B. Leighton and Matthew Sands},
+   year={1964},
+   number={ ISBN 0-201-02115-3},
+   publisher={Addison- Wesley},
+}
+
+@book{UniPhysSearsAndZe,
+   title={University Physics},
+   author={Hugh D. Young and Roger A. Freedman},
+   year={2004},
+   number={ISBN 13:978-0-321-76218-4; ISBN 10:0-321-76218-5},
+   publisher={Pearson Education},
+   series={13}
+}
+@book{Univers,
+    title = {Universet - Fra superstrenge til stjerner},
+    author = {Steen Hannestad},
+    year = {2008},
+    number = {ISBN: 978-87-7288-904-7},
+    publisher = {Aarhus Universitetsforlag},
+    series = {3. oplag}
+}
+@book{Laseren,
+    title = {Laseren - den moderne lyskilde},
+    author = {Bjarne Jeppesen and Danni T. Pedersen},
+    year = {2009},
+    number = {ISBN: 87-7792-037-6},
+    publisher = {Fysikforlaget},
+    series = {2. oplag}
+}
+@manual{KoldKrig,
+	author ={P1 - Tema},
+	title ={Den Kolde Krigs tidslinje},
+	address={URL: \url{http://www.dr.dk/P1/p1_temaer/Danskerne+og+Den+Kolde+Krig/20060106121652.htm}},
+	year ={2012},
+	note ={Hentet: 21-04-2012}
+}
+
+@book{Calculus,
+    title = {Calculus - a complete course},
+    author = {Robert A. Adams and Christopher Essex},
+    year = {2003},
+    number = {ISBN: 978-0-321-54928-0},
+    publisher = {Pearson},
+    series = {7. oplag}
+}
+@Article{Dobbler,
+    title = {Doppler effect for waveforms},
+    author = {Ron Kurtus},
+    address = {URL: \url{http://www.school-for-champions.com/science/waves_doppler.htm}},
+    year={2009},
+    note = {Hentet: 15-05-2012}
+}
+
+%--- P1-ting --------------------------------------------------%
+@book{FunSemicon,
+    title = {Fundamentals of Semiconductors},
+    author = {Peter Y. Yu and Manuel Cardona},
+    year = {2009},
+    %number = {ISBN: 3-540-25470-6},
+    publisher = {Springer},
+    %series = {3. udgave}
+} %NOTE: ER IKKE 100% SIKKER P? ?RET //JONAS
+
+@book{SemiconPhys,
+    title = {Semiconductor Physics And Devices},
+    author = {Donald A. Neamen},
+    year = {2003},
+    %number = {ISBN: 0-07-119862-8},
+    publisher = {McGraw-Hill},
+    %series = {3. udgave}
+}
+
+@book{IntroSSPhys,
+    title = {Introduction to Solid State Physics},
+    author = {Charles Kittel},
+    year = {1995},
+    number = {ISBN: 0-471-11181-3},
+    publisher = {Wiley}
+}
+
+@book{UniversityPhysics,
+    title={University Physics},
+   author={Hugh D. Young and Roger A. Freedman},
+   year={2004},
+   %number={ISBN 13:978-0-321-76218-4; ISBN 10:0-321-76218-5},
+   publisher={Pearson Education},
+}
+
+@TechReport{partikelfysik,
+author = {Esben Klinkby},
+title = {Partikelfysik},
+institution = {Niels Bohr Instituttet, K?benhavns Universitet}
+}
+
+@book{OrbitA,
+    title = {Orbit A},
+    author = {Per Holck and Jens Kraaer and Birgitte Merci Lund},
+    year = {2009},
+    number = {ISBN-13: 978-87-616-1398-1},
+    publisher = {Systime},
+    series = {1. e-bogudgave}
+}
+
+@book{EleParticlePhys,
+    title = {Elementary Particle Physics : Volume 1: Quantum Field Theory and 		Particles},
+    author = {Nagashima, Yorikiyo},
+    year = {2010},
+    number = {ISBN: 9783527409624},
+    publisher = {Weinheim : Wiley vch}
+}
+
+@manual{Halvlederside,
+	author ={Bill Wilson},
+	title ={Doped Semiconductors},
+	address={URL: \url{http://cnx.org/content/m1002/latest/}},
+	year ={2007},
+	note ={Downloadet: 14-12-2011}
+}
+@manual{Relativ,
+	author ={R. Clarke},
+	title ={Magnetic properties of materials},
+	address={URL: \url{http://info.ee.surrey.ac.uk/Workshop/advice/coils/mu/#mur}},
+	year ={2008},
+	note ={Downloadet: 15-12-2011}
+}
+
+@book{OrbitA,
+    title = {Kvantemekanik: Atomernes vilde verden},
+    author = {Klaus M?lmer},
+    year = {2010},
+    publisher = {?rhus Universitetsforlag},
+    series = {1. udgave}
+
+}
+
+@manual{forside,
+    title = {Coiled up 2},
+    author = {Firehawk77},
+    year = {2006},
+    address = {URL:\url{http://www.sxc.hu/photo/458212}},
+   	note = {Forsidebillede, downloadet: 11-11-2011.}
+    
+}
+
+	
+%--- IDA EKSEMPLER NEDENFOR --------------------------------------------------%
+
+@book{latex,
+    title = {The latex companion},
+    author = {Frank Mittelbach and Michel Gossens},
+    year = {2004},
+    number = {ISBN: 0-201-36299-6},
+    publisher = {Addision-Wesley},
+    series = {Handbook}
+}
+
+@book{tekniskstaabi,
+    title = {Teknisk St?bi},
+    author = {Bjarne Chr. Jensen and Gunner Mohr and Asta Nicolajsen and Bo Mortensen and Henrik Bygbjerg and Lars Pilegaard Hansen and Hans J?rgen Larsen and Svend Ole Hansen and Dirch H. Bager and Eilif Svensson and Ejnar S?ndergaard and Carsten Munk Plum and Hilmer Riberholt and Lars Zenke Hansen and Kaare K. B. Dahl and Henning Larsen and Per Goltermann and J?rgen S. Steenfelt and Carsten S. S?rensen and Werner Bai},
+    year = {2007},
+    number = {ISBN: 978-87-571-2556-6},
+    publisher = {Nyt Teknisk Forlag},
+    series = {19. udgave}
+}
+
+
+%%%% EKSEMPLER (manual, book, article, techreport og misc) %%%%
+
+@manual{isover,
+	author ={Isover},
+	title ={Typeoversigt over konstruktionsdele},
+	address={URL: \url{http://www.isover.dk}},
+	year ={2008},
+	note ={Downloadet: 19-05-2008}
+}
+
+@book{latex,
+    title = {The latex companion},
+    author = {Frank Mittelbach and Michel Gossens},
+    year = {2004},
+    number = {ISBN: 0-201-36299-6},
+    publisher = {Addision-Wesley},
+    series = {Handbook}
+}
+
+@article{julemaend,
+   author = {Alex Phil-Andersen},
+   title = {?konomiske julem?nd},
+   journal = {Nordjyske},
+   volume = {10.02},
+   pages = {},
+   year = {2007}
+}
+
+@techreport{bib:bec,
+		title = {Budgetafvigelser p? kulturbyggerier i Danmark},
+		author = {{Byggeriets Evaluerings Center}},
+		year = {2007}
+}
+
+@misc{karen,
+  author = {Karen Skou},
+  howpublished = {G?steforel?sning hos IDA d. 20/3-2007},
+  title = {Realdania - fonden for det byggede milj?},
+  year = {2007}	
+}
+
+@misc{mst,
+  author = {Mogens Steen-Th?de},
+  howpublished = {For?rssemesteret},
+  title = {Forel?sning i Hygrotermisk Bygningsfysik},
+  year = {2008}	
+}
