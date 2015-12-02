@@ -52,6 +52,14 @@ int main()
     v[1] = 0.017;
     v[2] = 0;
 
+    //creating vectors for print file:
+    double r_initial[3], v_initial[3];
+    for (int i=0; i<3; i++)
+    {
+        r_initial[i] = r[i];
+        v_initial[i] = v[i];
+    }
+
     cout << "initial position:" << endl;
     for (int i = 0; i<n; i++)
     {
@@ -106,7 +114,42 @@ int main()
 
     double energy_final = v[0]*v[0]+v[1]*v[1]+v[2]*v[2]*0.5+G*mass*pow(r[0]*r[0]+r[1]*r[1]+r[2]*r[2],-0.5);
     cout << "Energy_final = " << energy_final << endl;
+/*
+    ofstream myfile ("RungeKutta4_2body3D.txt");
+        if (myfile.is_open())
+        {
+            myfile << "Runge-Kutta Method, 2 body, 3D" << endl;
+            myfile << "Time: " << t_final << " days" << endl;
+            myfile << "Number of time steps: " << number_of_time_step << endl;
+            myfile << "Time step: " << dt << " days" << endl;
 
+            myfile << "initial position:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << r_initial[i] << endl;
+            }
+            myfile << "initial velocity:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << v_initial[i] << endl;
+            }
+            myfile << "Initial distance to sun: " << distance_sun_initial << " AU" << endl;
+            myfile << "Initial energy:  " << energy_initial << endl;
+
+            myfile << "final position:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << r[i] << endl;
+            }
+            myfile << "initial velocity:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << v[i] << endl;
+            }
+            myfile << "Final distance to sun: " << distance_sun_final << " AU" << endl;
+            myfile << "Final energy:  " << energy_final << endl;
+        }
+*/
     return 0;
 }
 
