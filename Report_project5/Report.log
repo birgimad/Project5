@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  1 DEC 2015 15:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  2 DEC 2015 13:01
 entering extended mode
 **Report.tex
-(C:\Users\Birgitte\Desktop\Report_project5\Report.tex
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Birgitte\Desktop\Report_project5\preamble.tex
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\preamble.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
 ment class
@@ -1327,7 +1327,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@dimlist=\toks52
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")))
-(C:\Users\Birgitte\Desktop\Report_project5\Report.aux)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -1393,8 +1393,8 @@ LaTeX Info: Redefining \nameref on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
-(C:\Users\Birgitte\Desktop\Report_project5\Report.out)
-(C:\Users\Birgitte\Desktop\Report_project5\Report.out)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.out)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.out)
 \@outlinefile=\write5
 LaTeX Info: Redefining \Ref on input line 4.
 
@@ -1432,11 +1432,12 @@ LaTeX Info: Redefining \Ref on input line 4.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\Birgitte\Desktop\Report_project5\Chapters/Formalia/Frontpage.tex
+
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Formalia/
+Frontpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-
-<Figures/UiO_Seal_A_ENG.png, id=27, 566.5968pt x 95.8782pt>
+ <Figures/UiO_Seal_A_ENG.png, id=39, 566.5968pt x 95.8782pt>
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
 
 <use Figures/UiO_Seal_A_ENG.png>
@@ -1452,11 +1453,12 @@ Package pdftex.def Info: Figures/UiO_Seal_A_ENG.png used on input line 19.
 Non-PDF special ignored!
 Non-PDF special ignored!
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Birgitte/Desktop
-/Report_project5/Figures/UiO_Seal_A_ENG.png>] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Birgitte/Documen
+ts/GitHub/Project5/Report_project5/Figures/UiO_Seal_A_ENG.png>] [2
 
 ])
-(C:\Users\Birgitte\Desktop\Report_project5\Chapters/Formalia/titelblad.tex
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Formalia/
+titelblad.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -1464,8 +1466,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
-
-<use Figures/UiO_Seal_A_ENG.png>
+ <use Figures/UiO_Seal_A_ENG.png>
 Package pdftex.def Info: Figures/UiO_Seal_A_ENG.png used on input line 35.
 (pdftex.def)             Requested size: 252.2169pt x 42.67912pt.
 
@@ -1502,19 +1503,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--97
 
 ] [4
 
-] (C:\Users\Birgitte\Desktop\Report_project5\Chapters/Abstract.tex
+]
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Abstract.
+tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
-[5
+) [5
 
 ] [6
 
-] (C:\Users\Birgitte\Desktop\Report_project5\Report.toc) [7] [8
+]
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.toc)
+[7] [8
 
 ]
-(C:\Users\Birgitte\Desktop\Report_project5\Chapters/Introduction.tex)
-(C:\Users\Birgitte\Desktop\Report_project5\Chapters/Method.tex [1
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Introduct
+ion.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Method.te
+x [1
 
 ] [2
 
@@ -1528,13 +1534,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
 line 3.
 )
-(C:\Users\Birgitte\Desktop\Report_project5\Chapters/Results.tex [3] [4
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Newton2bo
+dy3D.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodRK4
+.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodVV.
+tex)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
+ex [3] [4])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
+n.tex [5
+
+] [6
 
 ])
-(C:\Users\Birgitte\Desktop\Report_project5\Chapters/Conclusion.tex [5] [6
-
-])
-(C:\Users\Birgitte\Desktop\Report_project5\Report.bbl [7] [8
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
+[7] [8
 
 ]
 bibitemlist
@@ -1545,31 +1563,34 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 AED: lastpage setting LastPage
 [9]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
- (C:\Users\Birgitte\Desktop\Report_project5\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
+ (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 18AB49A2E505CFB19203D026ADC34228;290.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
+(rerunfilecheck)             Checksum: 1648B13EC0FFFDFDFBB239DCE1A48276;543.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 19897 strings out of 493921
- 300962 string characters out of 3147273
- 594075 words of memory out of 3000000
- 22716 multiletter control sequences out of 15000+200000
- 61112 words of font info for 131 fonts, out of 3000000 for 9000
+ 19947 strings out of 493921
+ 302719 string characters out of 3147273
+ 597075 words of memory out of 3000000
+ 22737 multiletter control sequences out of 15000+200000
+ 69040 words of font info for 144 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,583b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
-/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (17 pages, 106182 bytes).
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbo
+l/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (17 pages, 132453 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

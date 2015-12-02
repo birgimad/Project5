@@ -1,0 +1,22 @@
+\subsection{Velocity-Verlet method}
+\label{sec:methodVV}
+- Remember to write about accuracy of algorithm!!
+\begin{align}
+	\v{r}(t+\delta t) = \v{r}(t) + \v{v} (t) \delta t + \frac{1}{2} \v{a} (t) \delta t^2 
+	\label{eq:VVmethodNextPosition}
+\end{align}
+
+\begin{align}
+	\v{v} (t + \delta t) = \v{v} (t) + \frac{1}{2} ( \v{a} (t) + \v{a} (t + \delta t) ) \delta t
+	\label{eq:VVmethodNextVelocity}
+\end{align}
+The velocity is in the algorithm calculated \fxnote{ad to gange} by first calculating 
+\begin{align}
+	\v{v}_{part1} (t + \delta t) = \v{v} (t) + \frac{1}{2}  \v{a} (t)  \delta t
+	\label{eq:VVmethodNextVelocityPart1}
+\end{align}
+and then use ?? \fxnote{fix this!} to determine $\v{a} (t + \delta t)$, which is then used to compute the remaining term of \matref{eq:VVmethodNextVelocity} as 
+\begin{align}
+	\v{v}_{part2} (t + \delta t) = \frac{1}{2} \v{a} (t + \delta t) \delta t
+	\label{eq:VVmethodNextVelocityPart2}
+\end{align}
