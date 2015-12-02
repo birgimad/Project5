@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  2 DEC 2015 13:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  2 DEC 2015 18:25
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex (C:\Use
@@ -1381,20 +1381,31 @@ line 3.
 dy3D.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+LaTeX Warning: Reference `eq:diffEq2' on page 3 undefined on input line 25.
+
 )
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodRK4
-.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodVV.
 tex
 
-LaTeX Warning: Reference `eq:VVmethodNextVelocity' on page 3 undefined on input
- line 18.
+LaTeX Warning: Reference `eq:VVmethodNextVelocity' on page 4 undefined on input
+ line 24.
+
+)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodRK4
+.tex
+
+LaTeX Warning: Reference `Newton2body3D' on page 5 undefined on input line 30.
+
+
+LaTeX Warning: Reference `eq:RK4nextxtep1' on page 5 undefined on input line 44
+.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
 ex
 
-LaTeX Warning: Reference `chap:method' on page 5 undefined on input line 5.
+LaTeX Warning: Reference `chap:method' on page 7 undefined on input line 5.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
@@ -1444,12 +1455,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 19463 strings out of 493922
- 295739 string characters out of 3147296
- 594850 words of memory out of 3000000
- 22342 multiletter control sequences out of 15000+200000
- 42560 words of font info for 115 fonts, out of 3000000 for 9000
+ 19637 strings out of 493922
+ 297543 string characters out of 3147296
+ 619850 words of memory out of 3000000
+ 22516 multiletter control sequences out of 15000+200000
+ 43235 words of font info for 117 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,620b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,620b,1819s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.

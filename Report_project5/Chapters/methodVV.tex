@@ -1,6 +1,12 @@
 \subsection{Velocity-Verlet method}
 \label{sec:methodVV}
 - Remember to write about accuracy of algorithm!!
+Consider the Taylor expansion of the vector function $\v{x}(t_i \pm \delta t)$:
+\begin{align}
+	\v{x}(t_i \pm \delta t) = \v{x}(t_i) \pm \v{v} (t_i) \delta t
+	+ \frac{\delta t ^2}{2}
+\end{align}
+\fxnote{fix this!!}
 \begin{align}
 	\v{r}(t+\delta t) = \v{r}(t) + \v{v} (t) \delta t + \frac{1}{2} \v{a} (t) \delta t^2 
 	\label{eq:VVmethodNextPosition}

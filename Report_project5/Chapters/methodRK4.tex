@@ -1,3 +1,65 @@
 \subsection{Fourth Order Runge-Kutta Method}
 \label{sec:methodRK4}
 - Remember to write about accuracy of algorithm!!
+
+The Runge-Kutta method is based on Taylor expansions, with the next function value after a times step $\delta t = t_i - t_{i+1}$ being computed from four more or less improved slopes of the function in the points $t_i$, $t_i + \delta t /2$ and $t_{i+1}$.
+  
+The first step of the RK4 method is to compute the slope $k_1$ of the function in $t_i$ by
+\begin{align*}
+	k_1 = \delta t f(t_i , y_i)
+\end{align*}
+Then the slope $k_1$ at the midpoint is computed from $k_1$ as
+\begin{align*}
+	k_2 = \delta t f(t_i + \delta t /2, y_i + k_1 /2 )
+\end{align*}
+The slope at the midpoint is then improved from $k_2$ by
+\begin{align*}
+	k_3 = \delta t f(t_i + \delta t /2, y_i + k_2 /2 )
+\end{align*}
+from which the slope $k_4$ at the next step $y_{i+1}$ is predicted to be
+\begin{align*}
+	k_4 = \delta t f(t_i + \delta t, y_i +k_3 )
+\end{align*}
+From the computed slopes $k_1$, $k_2$, $k_3$ and $k_4$, the function value at $t_i + \delta t$ is computed as
+\begin{align}
+ y_{i+1} = y_i + \frac{1}{6} (k_1 + 2k_2 + 2k_3 +k_4 )
+ \label{eq:RK4nextxtep1}
+\end{align}
+When implementing this for the two-body problem in three dimensions, it boils down to a continuous call of two functions, namely the function 
+\textit{Derivative} given in 
+\secref{Newton2body3D} and the function 
+\textit{updating\_dummies} given below.
+\begin{lstlisting}
+void updating_dummies(double dt, double drdt[3], double dvdt[3], double (&r_dummy)[3], double (&v_dummy)[3], double number, double (&kr)[3], double (&kv)[3], double r[3], double v[3])
+{
+    for (int i = 0; i<3; i++){
+        kr[i] = dt * drdt[i];
+        kv[i] = dt * dvdt[i];
+        r_dummy[i] = r[i] + kr[i]/number;
+        v_dummy[i] = v[i] + kv[i]/number;
+    }
+}
+\end{lstlisting}
+The function \textit{updating\_dummies} computes the values of $k_1$, $k_2$, $k_3$ and $k_4$ for all three space coordinates and velocity coordinates from the derivatives $drdt$ and $dvdt$ computed by the \textit{Derivative} function. 
+To compute the next step given by \matref{eq:RK4nextxtep1}, the following succession of function calls are made until the time reaches the final time $t_{final}$ after $(t_{final} - t_{inital}) / \delta t$ time steps.
+\begin{lstlisting}
+while(time<=t_final){
+    Derivative(r,v,drdt,dvdt,G,mass);
+    updating_dummies(dt,drdt,dvdt,r_dummy,v_dummy,2,k1r,k1v,r,v);
+    Derivative(r_dummy,v_dummy,drdt,dvdt,G,mass);
+    updating_dummies(dt,drdt,dvdt,r_dummy,v_dummy,2,k2r,k2v,r,v);
+    Derivative(r_dummy,v_dummy,drdt,dvdt,G,mass);
+    updating_dummies(dt,drdt,dvdt,r_dummy,v_dummy,1,k3r,k3v,r,v);
+    Derivative(r_dummy,v_dummy,drdt,dvdt,G,mass);
+    for (int i = 0; i<n; i++){
+        k4r[i] = dt*drdt[i];
+        k4v[i] = dt*dvdt[i];
+    }
+    for (int i=0; i<n;i++){
+        r[i] = r[i] +(1.0/6.0)*(k1r[i]+2*k2r[i]+2*k3r[i]+k4r[i]);
+        v[i] = v[i] +(1.0/6.0)*(k1v[i]+2*k2v[i]+2*k3v[i]+k4v[i]);
+    }
+    time += dt;
+    }
+\end{lstlisting}
+ 
