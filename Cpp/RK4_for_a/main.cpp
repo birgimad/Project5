@@ -114,6 +114,7 @@ int main()
 
     double energy_final = v[0]*v[0]+v[1]*v[1]+v[2]*v[2]*0.5+G*mass*pow(r[0]*r[0]+r[1]*r[1]+r[2]*r[2],-0.5);
     cout << "Energy_final = " << energy_final << endl;
+
 /*
     ofstream myfile ("RungeKutta4_2body3D.txt");
         if (myfile.is_open())

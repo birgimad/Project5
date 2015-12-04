@@ -41,7 +41,7 @@ void Derivative(mat r, mat v, vec m, mat (&drdt), mat (&dvdt), double G, int num
     }
 }
 
-void making_ks(mat &pos_temp, mat vel_temp, mat r, mat v, mat drdt, mat dvdt, vec m, double time_step, mat &k, double number, int number_of_particles){
+void making_ks(mat &pos_temp, mat &vel_temp, mat r, mat v, mat drdt, mat dvdt, double time_step, mat &k, double number, int number_of_particles){
     for (int i = 0; i< number_of_particles; i++)
     {
         for (int j=0; j<3; j++)
@@ -61,12 +61,14 @@ int main()
     double G = 2.96e-4;     //Grav const in the units of AU^3 / ( days^3 * mass_sun )
     double t0 = 0.0;
     double t_final = 182.0;     //time in the unit of days
-    int number_of_time_step = 10000;
+    int number_of_time_step = 100000;
     double time = t0;
     double dt = (t_final - t0)/number_of_time_step;
     int number_of_particles = 2;
     mat r(number_of_particles,3);
     mat v(number_of_particles,3);
+    mat r_initial(number_of_particles,3);
+    mat v_initial(number_of_particles,3);
     //position of Sun
     r(0,0) = 1.0;
     r(0,1) = 1.0;
@@ -86,6 +88,8 @@ int main()
     vec m(number_of_particles);
     m(0) = 1.0;
     m(1) = 3.0e-6;
+    r_initial = r;
+    v_initial = v;
 
     mat pos_temp(number_of_particles,3);
     mat vel_temp(number_of_particles,3);
@@ -136,12 +140,8 @@ int main()
         }
 
     }
-    cout << "distance between earth and sun" << endl;
-    cout << distance_between_particles(0,1) << endl;
-    cout << distance_between_particles(1,0) << endl;
-    cout << "distance between similar particles" << endl;
-    cout << distance_between_particles(0,0) << endl;
-    cout << distance_between_particles(1,1) << endl;
+    cout << "distance between earth and sun: " << distance_between_particles(0,1) << " AU" << endl;
+
     vec kin_en(number_of_particles);
     kin_en.zeros();
     vec pot_en(number_of_particles);
@@ -175,11 +175,11 @@ int main()
 
     while(time<=t_final){
     Derivative(r,v,m,drdt,dvdt,G,number_of_particles);
-    making_ks(pos_temp,vel_temp,r,v,drdt,dvdt,m,dt,k1,2,number_of_particles);
+    making_ks(pos_temp,vel_temp,r,v,drdt,dvdt,dt,k1,2.0,number_of_particles);
     Derivative(pos_temp,vel_temp,m,drdt,dvdt,G,number_of_particles);
-    making_ks(pos_temp,vel_temp,r,v,drdt,dvdt,m,dt,k2,2,number_of_particles);
+    making_ks(pos_temp,vel_temp,r,v,drdt,dvdt,dt,k2,2.0,number_of_particles);
     Derivative(pos_temp,vel_temp,m,drdt,dvdt,G,number_of_particles);
-    making_ks(pos_temp,vel_temp,r,v,drdt,dvdt,m,dt,k3,1,number_of_particles);
+    making_ks(pos_temp,vel_temp,r,v,drdt,dvdt,dt,k3,1,number_of_particles);
     Derivative(pos_temp,vel_temp,m,drdt,dvdt,G,number_of_particles);
     for (int j=0; j<number_of_particles; j++)
     {
@@ -189,8 +189,8 @@ int main()
         }
         for (int i=0; i<3; i++)
         {
-            r(j,i) += (1.0/6.0)*(k1(j,i)+2*k1(j,i)+2*k3(j,i)+k4(j,i));
-            v(j,i) += (1.0/6.0)*(k1(j,i+3)+2*k1(j,i+3)+2*k3(j,i+3)+k4(j,i+3));
+            r(j,i) += (1.0/6.0)*(k1(j,i)+2*k2(j,i)+2*k3(j,i)+k4(j,i));
+            v(j,i) += (1.0/6.0)*(k1(j,i+3)+2*k2(j,i+3)+2*k3(j,i+3)+k4(j,i+3));
         }
     }
     time += dt;
@@ -232,82 +232,98 @@ int main()
         }
 
     }
-    cout << "distance between earth and sun" << endl;
-    cout << distance_between_particles_final(0,1) << endl;
-    cout << distance_between_particles_final(1,0) << endl;
+    cout << "distance between earth and sun: " <<  distance_between_particles_final(1,0) << " AU" << endl;
 
-
-/*
-    //RK4:
-    while(time<=t_final){
-
-    Derivative(r_dummy,v_dummy,drdt,dvdt,G,mass);
-    updating_dummies(dt,drdt,dvdt,r_dummy,v_dummy,1,k3r,k3v,r,v);
-    Derivative(r_dummy,v_dummy,drdt,dvdt,G,mass);
-    for (int i = 0; i<n; i++){
-        k4r[i] = dt*drdt[i];
-        k4v[i] = dt*dvdt[i];
-    }
-    for (int i=0; i<n;i++){
-        r[i] = r[i] +(1.0/6.0)*(k1r[i]+2*k2r[i]+2*k3r[i]+k4r[i]);
-        v[i] = v[i] +(1.0/6.0)*(k1v[i]+2*k2v[i]+2*k3v[i]+k4v[i]);
-    }
-    time += dt;
-    }
-
-    cout << "final position:" << endl;
-    for (int i = 0; i<n; i++)
+    vec kin_en_final(number_of_particles);
+    kin_en_final.zeros();
+    vec pot_en_final(number_of_particles);
+    pot_en_final.zeros();
+    vec tot_en_final(number_of_particles);
+    tot_en_final.zeros();
+    for (int i=0; i<number_of_particles; i++)
     {
-        cout << r[i] << endl;
+        for (int k=0; k<3; k++)
+        {
+            kin_en_final(i) += v(i,k)*v(i,k);
+        }
+        kin_en_final(i) = 0.5*m(i)*kin_en(i);
+        for (int j=0; j<number_of_particles; j++)
+        {
+            if (j != i)
+            {
+                pot_en_final(i) += pow(distance_between_particles_final(i,j),-1.0)*m(j);
+            }
+        }
+        pot_en_final(i) = pot_en_final(i)*G*m(i);
+        tot_en_final(i) = kin_en_final(i)+pot_en_final(i);
     }
-    cout << "final velocity:" << endl;
-    for (int i = 0; i<n; i++)
-    {
-        cout << v[i] << endl;
-    }
-
-    double distance_sun_final = pow(r[0]*r[0]+r[1]*r[1]+r[2]*r[2],1/2);
-    cout << "Distance to sun: " << distance_sun_final << " AU" << endl;
-
-    double energy_final = v[0]*v[0]+v[1]*v[1]+v[2]*v[2]*0.5+G*mass*pow(r[0]*r[0]+r[1]*r[1]+r[2]*r[2],-0.5);
-    cout << "Energy_final = " << energy_final << endl;
-*/
+    cout << "Energy Sun: " << tot_en_final(0) << endl;
+    cout << "Energy Earth: " << tot_en_final(1) << endl;
 /*
-    ofstream myfile ("RungeKutta4_2body3D.txt");
+    ofstream myfile ("RungeKutta4_2body3D_newscript.txt");
         if (myfile.is_open())
         {
-            myfile << "Runge-Kutta Method, 2 body, 3D" << endl;
+            myfile << "Runge-Kutta Method, 2 body, 3D, new script" << endl;
             myfile << "Time: " << t_final << " days" << endl;
             myfile << "Number of time steps: " << number_of_time_step << endl;
             myfile << "Time step: " << dt << " days" << endl;
-
-            myfile << "initial position:" << endl;
+            myfile << " " << endl;
+            myfile << "mass Sun" << m(0) << endl;
+            myfile << "mass Earth" << m(1) << endl;
+            myfile << " " << endl;
+            myfile << "initial position Sun:" << endl;
             for (int i = 0; i<n; i++)
             {
-                myfile << r_initial[i] << endl;
+                myfile << r_initial(0,i) << endl;
             }
-            myfile << "initial velocity:" << endl;
+            myfile << "initial velocity Sun:" << endl;
             for (int i = 0; i<n; i++)
             {
-                myfile << v_initial[i] << endl;
+                myfile << v_initial(0,i) << endl;
             }
-            myfile << "Initial distance to sun: " << distance_sun_initial << " AU" << endl;
-            myfile << "Initial energy:  " << energy_initial << endl;
-
-            myfile << "final position:" << endl;
+            myfile << "initial position Earth:" << endl;
             for (int i = 0; i<n; i++)
             {
-                myfile << r[i] << endl;
+                myfile << r_initial(1,i) << endl;
             }
-            myfile << "initial velocity:" << endl;
+            myfile << "initial velocity Earth:" << endl;
             for (int i = 0; i<n; i++)
             {
-                myfile << v[i] << endl;
+                myfile << v_initial(1,i) << endl;
             }
-            myfile << "Final distance to sun: " << distance_sun_final << " AU" << endl;
-            myfile << "Final energy:  " << energy_final << endl;
+            myfile << " " << endl;
+            myfile << "Initial distance earth-sun: " << distance_between_particles(1,0) << " AU" << endl;
+            myfile << "Initial energy Sun:  " <<  tot_en(0) << endl;
+            myfile << "Initial energy Earth:  " <<  tot_en(1) << endl;
+            myfile << " " << endl;
+            myfile << "final position Sun:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << r(0,i) << endl;
+            }
+            myfile << "final velocity Sun:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << v(0,i) << endl;
+            }
+            myfile << "final position Earth:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << r(1,i) << endl;
+            }
+            myfile << "final velocity Earth:" << endl;
+            for (int i = 0; i<n; i++)
+            {
+                myfile << v(1,i) << endl;
+            }
+            myfile << " " << endl;
+            myfile << "Final distance earth-sun: " << distance_between_particles_final(1,0) << " AU" << endl;
+            myfile << "Final energy Sun:  " <<  tot_en_final(0) << endl;
+            myfile << "Final energy Earth:  " <<  tot_en_final(1) << endl;
+            myfile << " " << endl;
         }
 */
+
     return 0;
 }
 
