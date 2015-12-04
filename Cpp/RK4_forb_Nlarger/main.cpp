@@ -60,11 +60,11 @@ int main()
 
     double G = 2.96e-4;     //Grav const in the units of AU^3 / ( days^3 * mass_sun )
     double t0 = 0.0;
-    double t_final = 182.0;     //time in the unit of days
+    double t_final = 20*365.0;     //time in the unit of days
     int number_of_time_step = 100000;
     double time = t0;
     double dt = (t_final - t0)/number_of_time_step;
-    int number_of_particles = 2;
+    int number_of_particles = 3;
     mat r(number_of_particles,3);
     mat v(number_of_particles,3);
     mat r_initial(number_of_particles,3);
@@ -77,6 +77,10 @@ int main()
     r(1,0) = 2.0;
     r(1,1) = 1.0;
     r(1,2) = 1.0;
+    //position of Mars
+    r(2,0) = -0.5;
+    r(2,1) = 1.0;
+    r(2,2) = 1.0;
     //velocity of Sun
     v(0,0) = 0.0;
     v(0,1) = 0.0;
@@ -85,9 +89,14 @@ int main()
     v(1,0) = 0.0;
     v(1,1) = 0.017;
     v(1,2) = 0.0;
+    //velocity of Mars
+    v(2,0) = 0.0;
+    v(2,1) = 0.014;
+    v(2,2) = 0.0;
     vec m(number_of_particles);
     m(0) = 1.0;
     m(1) = 3.0e-6;
+    m(2) = 3.2e-7;
     r_initial = r;
     v_initial = v;
 
@@ -125,12 +134,22 @@ int main()
     {
         cout << v(1,i) << endl;
     }
+    cout << "initial position mars:" << endl;
+    for (int i = 0; i<n; i++)
+    {
+        cout << r(2,i) << endl;
+    }
+    cout << "initial velocity mars:" << endl;
+    for (int i = 0; i<n; i++)
+    {
+        cout << v(2,i) << endl;
+    }
     mat distance_between_particles(number_of_particles,number_of_particles);
     distance_between_particles.zeros();
 
-    for (int i = 0; i<2; i++)
+    for (int i = 0; i<number_of_particles; i++)
     {
-        for (int j = 0; j<2; j++)
+        for (int j = 0; j<number_of_particles; j++)
         {
             for (int k = 0; k<3; k++)
             {
@@ -141,6 +160,7 @@ int main()
 
     }
     cout << "distance between earth and sun: " << distance_between_particles(0,1) << " AU" << endl;
+    cout << "distance between mars and sun: " << distance_between_particles(0,2) << " AU" << endl;
 
     vec kin_en(number_of_particles);
     kin_en.zeros();
@@ -217,12 +237,22 @@ int main()
     {
         cout << v(1,i) << endl;
     }
+    cout << "final position mars:" << endl;
+    for (int i = 0; i<n; i++)
+    {
+        cout << r(2,i) << endl;
+    }
+    cout << "final velocity mars:" << endl;
+    for (int i = 0; i<n; i++)
+    {
+        cout << v(2,i) << endl;
+    }
     mat distance_between_particles_final(number_of_particles,number_of_particles);
     distance_between_particles_final.zeros();
 
-    for (int i = 0; i<2; i++)
+    for (int i = 0; i<number_of_particles; i++)
     {
-        for (int j = 0; j<2; j++)
+        for (int j = 0; j<number_of_particles; j++)
         {
             for (int k = 0; k<3; k++)
             {
@@ -233,6 +263,7 @@ int main()
 
     }
     cout << "distance between earth and sun: " <<  distance_between_particles_final(1,0) << " AU" << endl;
+    cout << "distance between mars and sun: " <<  distance_between_particles_final(2,0) << " AU" << endl;
 
     vec kin_en_final(number_of_particles);
     kin_en_final.zeros();
