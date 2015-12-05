@@ -277,7 +277,7 @@ int main()
         {
             kin_en_final(i) += v(i,k)*v(i,k);
         }
-        kin_en_final(i) = 0.5*m(i)*kin_en(i);
+        kin_en_final(i) = 0.5*m(i)*kin_en_final(i);
         for (int j=0; j<number_of_particles; j++)
         {
             if (j != i)
