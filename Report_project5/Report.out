@@ -4,6 +4,9 @@
 \BOOKMARK [1][-]{section.2.1}{Newtonian two-body problem in three dimension}{chapter.2}% 4
 \BOOKMARK [2][-]{subsection.2.1.1}{Velocity-Verlet method}{section.2.1}% 5
 \BOOKMARK [2][-]{subsection.2.1.2}{Fourth Order Runge-Kutta Method}{section.2.1}% 6
-\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 7
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 8
-\BOOKMARK [0][-]{section*.4}{Bibliography}{}% 9
+\BOOKMARK [1][-]{section.2.2}{Generating Position, Mass and Velocity for Cluster Particles}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Gaussian Distributed Mass}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{Uniformly Distributed Position}{section.2.2}% 9
+\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 10
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 11
+\BOOKMARK [0][-]{section*.4}{Bibliography}{}% 12

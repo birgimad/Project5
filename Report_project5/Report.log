@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  2 DEC 2015 18:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  6 DEC 2015 21:41
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1437,7 +1437,7 @@ LaTeX Info: Redefining \Ref on input line 4.
 Frontpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- <Figures/UiO_Seal_A_ENG.png, id=39, 566.5968pt x 95.8782pt>
+ <Figures/UiO_Seal_A_ENG.png, id=51, 566.5968pt x 95.8782pt>
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
 
 <use Figures/UiO_Seal_A_ENG.png>
@@ -1540,19 +1540,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [3])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodVV.
-tex)
+tex [4])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodRK4
-.tex [4] [5])
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
-ex [6])
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
-n.tex [7
+.tex [5])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
+gPosMassVel.tex [6]
+<Figures/random_mass_test.png, id=238, 422.32782pt x 316.18124pt>
+File: Figures/random_mass_test.png Graphic file (type png)
 
-] [8
+<use Figures/random_mass_test.png>
+Package pdftex.def Info: Figures/random_mass_test.png used on input line 33.
+(pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+ [7 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/random
+_mass_test.png (PNG copy)>]
+<Figures/random_uniform_position_test.png, id=272, 422.32782pt x 316.18124pt>
+File: Figures/random_uniform_position_test.png Graphic file (type png)
+
+<use Figures/random_uniform_position_test.png>
+Package pdftex.def Info: Figures/random_uniform_position_test.png used on input
+ line 83.
+(pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
+)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
+ex [8] [9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/
+random_uniform_position_test.png (PNG copy)>] [10
+
+])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
+n.tex [11] [12
 
 ])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
-[9] [10
+[13] [14
 
 ]
 bibitemlist
@@ -1561,38 +1584,45 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) 
 AED: lastpage setting LastPage
-[11]
+[15]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: FD8DF7F96896A487F6A58E8DB33F3CB5;543.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
+(rerunfilecheck)             Checksum: 3819215A6CB4A35A233E08A23F74C7EB;816.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 20186 strings out of 493921
- 305313 string characters out of 3147273
- 622075 words of memory out of 3000000
- 22911 multiletter control sequences out of 15000+200000
- 74137 words of font info for 158 fonts, out of 3000000 for 9000
+ 20378 strings out of 493921
+ 308189 string characters out of 3147273
+ 626835 words of memory out of 3000000
+ 23010 multiletter control sequences out of 15000+200000
+ 82869 words of font info for 176 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,583b,1834s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (19 pages, 169304 bytes).
+ 57i,19n,97p,895b,1834s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/hoekwater/rsfs/rsfs10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
+tmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (23 pages, 210660 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  2 DEC 2015 18:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  6 DEC 2015 21:41
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex (C:\Use
@@ -1388,8 +1388,15 @@ LaTeX Warning: Reference `eq:diffEq2' on page 3 undefined on input line 25.
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodVV.
 tex
 
+LaTeX Warning: Reference `eq:TaylorExpVVmethod' on page 4 undefined on input li
+ne 11.
+
+
 LaTeX Warning: Reference `eq:VVmethodNextVelocity' on page 4 undefined on input
- line 24.
+ line 30.
+
+
+LaTeX Warning: Reference `Newton2body3D' on page 4 undefined on input line 36.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodRK4
@@ -1398,14 +1405,25 @@ LaTeX Warning: Reference `eq:VVmethodNextVelocity' on page 4 undefined on input
 LaTeX Warning: Reference `Newton2body3D' on page 5 undefined on input line 30.
 
 
-LaTeX Warning: Reference `eq:RK4nextxtep1' on page 5 undefined on input line 44
+LaTeX Warning: Reference `eq:RK4nextxtep1' on page 6 undefined on input line 44
 .
+
+)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
+gPosMassVel.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+
+LaTeX Warning: Reference `fig:UniformlyGeneratedPos' on page 8 undefined on inp
+ut line 69.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
 ex
 
-LaTeX Warning: Reference `chap:method' on page 7 undefined on input line 5.
+LaTeX Warning: Reference `chap:method' on page 9 undefined on input line 5.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
@@ -1415,7 +1433,7 @@ No file Report-autopp.bbl.
 Package pst-pdf Warning: Picture container needs cropping..
 
 
-Package lastpage Warning: Rerun to get the references right on input line 36.
+Package lastpage Warning: Rerun to get the references right on input line 37.
 
 
 ! Package lastpage Error: No auxiliary file allowed.
@@ -1424,7 +1442,7 @@ See the lastpage package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \end{document}
+l.37 \end{document}
                    
 The lastpage package was not allowed to write to an .aux file.
 This package does not work without access to an .aux file.
@@ -1438,28 +1456,28 @@ See the lastpage package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \end{document}
+l.37 \end{document}
                    
 The lastpage package was not allowed to write to an .aux file.
 This package does not work without access to an .aux file.
 Press Ctrl+Z to exit.
 
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 36.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 19637 strings out of 493922
- 297543 string characters out of 3147296
- 619850 words of memory out of 3000000
- 22516 multiletter control sequences out of 15000+200000
- 43235 words of font info for 117 fonts, out of 3000000 for 9000
+ 19730 strings out of 493922
+ 298850 string characters out of 3147296
+ 629850 words of memory out of 3000000
+ 22602 multiletter control sequences out of 15000+200000
+ 47793 words of font info for 129 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,620b,1819s stack positions out of 5000i,500n,10000p,200000b,50000s
 
