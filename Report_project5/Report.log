@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  6 DEC 2015 21:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  6 DEC 2015 22:02
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1557,17 +1557,30 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
  [7 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/random
 _mass_test.png (PNG copy)>]
-<Figures/random_uniform_position_test.png, id=272, 422.32782pt x 316.18124pt>
+
+LaTeX Warning: Reference `Cross_sectional_area' on page 8 undefined on input li
+ne 70.
+
+<Figures/Cross_sectional_area.png, id=272, 371.3875pt x 281.05pt>
+File: Figures/Cross_sectional_area.png Graphic file (type png)
+
+<use Figures/Cross_sectional_area.png>
+Package pdftex.def Info: Figures/Cross_sectional_area.png used on input line 73
+.
+(pdftex.def)             Requested size: 184.37119pt x 139.52544pt.
+ [8 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Cross_
+sectional_area.png>]
+<Figures/random_uniform_position_test.png, id=303, 422.32782pt x 316.18124pt>
 File: Figures/random_uniform_position_test.png Graphic file (type png)
 
 <use Figures/random_uniform_position_test.png>
 Package pdftex.def Info: Figures/random_uniform_position_test.png used on input
- line 83.
+ line 91.
 (pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
-ex [8] [9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/
-random_uniform_position_test.png (PNG copy)>] [10
+ex [9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/rand
+om_uniform_position_test.png (PNG copy)>] [10
 
 ])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
@@ -1593,13 +1606,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 3819215A6CB4A35A233E08A23F74C7EB;816.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 20378 strings out of 493921
- 308189 string characters out of 3147273
- 626835 words of memory out of 3000000
- 23010 multiletter control sequences out of 15000+200000
+ 20386 strings out of 493921
+ 308418 string characters out of 3147273
+ 627110 words of memory out of 3000000
+ 23016 multiletter control sequences out of 15000+200000
  82869 words of font info for 176 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,895b,1834s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1620,9 +1637,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (23 pages, 210660 bytes).
+Output written on Report.pdf (23 pages, 223815 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
