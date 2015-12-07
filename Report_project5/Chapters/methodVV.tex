@@ -37,19 +37,15 @@ The velocity-Verlet method uses the algortihm \textit{Derivative} described in \
 \begin{lstlisting}
     while(time<=t_final){
     Derivative(r,v,drdt,dvdt,G,mass);
-
     for(int i=0; i<6 ; i++){
     r[i] = r[i]+dt*drdt[i] + 0.5 * dt * dt * dvdt[i];
     v_partly[i] = drdt[i] + 0.5 * dt * dvdt[i];
     dvdt[i] = v_partly[i];
     }
-
     Derivative(r,v,drdt,dvdt,G,mass);
-
     for(int i=0; i<n ; i++){
     v[i] = v_partly[i] + 0.5 * dt * dvdt[i];
     }
-
     time += dt;
     }
 \end{lstlisting}

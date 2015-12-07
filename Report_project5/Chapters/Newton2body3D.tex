@@ -41,7 +41,6 @@ void Derivative(double r[3], double v[3], double (&drdt)[3], double (&dvdt)[3], 
     drdt[0] = v[0];
     drdt[1] = v[1];
     drdt[2] = v[2];
-
     double distance_squared = r[0]*r[0] + r[1]*r[1] + r[2]*r[2];
     double newtonian_force = -G*mass/pow(distance_squared,1.5);
     dvdt[0] = newtonian_force*r[0];
@@ -49,3 +48,24 @@ void Derivative(double r[3], double v[3], double (&drdt)[3], double (&dvdt)[3], 
     dvdt[2] = newtonian_force*r[2];
 }
 \end{lstlisting}
+When including movement of both bodies relative to the frame of reference, the \textit{Derivative} function must be slightly modified, since then the relative position of the two bodies will be given as $\v{r}_{12} = \v{r}_2 - \v{r}_1$.
+For a general case with $N$ particles, the \textit{distance\_ squared} between body $i$ and $j$, and the acceleration in $x$, $y$ and $z$ due to the Newtonian force between body $i$ and $j$ can be determined by the following lines of code.
+\begin{lstlisting}
+for (int j=0; j<number_of_particles; j++)
+    {
+        if (j!=i)
+        {
+            distance_squared = 0;
+            for (int k=0; k<3; k++)
+            {
+                distance_squared += (r(i,k)-r(j,k))*(r(i,k)-r(j,k));
+            }
+            force_between_particles = m(j) * pow(distance_squared,-1.5);
+            acc_x += G*force_between_particles*(r(j,0)-r(i,0));
+            acc_y += G*force_between_particles*(r(j,1)-r(i,1));
+            acc_z += G*force_between_particles*(r(j,2)-r(i,2));
+        }
+    }
+\end{lstlisting}
+The if statement in the for loop over all bodies adds up the acceleration in all three dimensions of all particles due to the presence of other particles.
+Hence, for the two body problem, the argument in the if statement will only be true once for each of the two particles.

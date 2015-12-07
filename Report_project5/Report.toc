@@ -4,8 +4,8 @@
 \contentsline {chapter}{\chapternumberline {2}Method}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Transformation between units}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Newtonian two-body problem in three dimension}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Velocity-Verlet method}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Fourth Order Runge-Kutta Method}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Velocity-Verlet method}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Fourth Order Runge-Kutta Method}{7}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Generating Position, Mass and Velocity for Cluster Particles}{8}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Gaussian Distributed Mass}{8}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Uniformly Distributed Position}{9}{subsection.2.3.2}
