@@ -1,13 +1,14 @@
 \BOOKMARK [0][-]{titelblad.0}{Titelblad}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Method}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Newtonian two-body problem in three dimension}{chapter.2}% 4
-\BOOKMARK [2][-]{subsection.2.1.1}{Velocity-Verlet method}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.2}{Fourth Order Runge-Kutta Method}{section.2.1}% 6
-\BOOKMARK [1][-]{section.2.2}{Generating Position, Mass and Velocity for Cluster Particles}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Gaussian Distributed Mass}{section.2.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.2}{Uniformly Distributed Position}{section.2.2}% 9
-\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 10
-\BOOKMARK [1][-]{section.3.1}{Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}{chapter.3}% 11
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 12
-\BOOKMARK [0][-]{section*.4}{Bibliography}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Transformation between units}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Newtonian two-body problem in three dimension}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.1}{Velocity-Verlet method}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.2}{Fourth Order Runge-Kutta Method}{section.2.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Generating Position, Mass and Velocity for Cluster Particles}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.3.1}{Gaussian Distributed Mass}{section.2.3}% 9
+\BOOKMARK [2][-]{subsection.2.3.2}{Uniformly Distributed Position}{section.2.3}% 10
+\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}{chapter.3}% 12
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 13
+\BOOKMARK [0][-]{section*.4}{Bibliography}{}% 14
