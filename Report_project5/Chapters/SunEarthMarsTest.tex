@@ -1,0 +1,41 @@
+\section{Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}
+\label{sec:SunEarthMarsTest}
+
+\begin{table}[H]
+\centering
+\caption{Mass, initial position and initial velocity of Sun, Earth and Mars when running the Runge-Kutta 4 algorithm for this three-body problem.
+The Earth and Mars are set to orbit in the $x-y$-plane at $z=1$ AU with the distance 1 AU and 1.5 AU to the Sun, respectively, which is not physically true. However, this initialization of position and velocity is reasonable to illustrate the validity of the Runge-Kutta method and Velocity-Verlet method presented in \fxnote{ref}.
+}
+\begin{center}
+\begin{tabular}{ | c | c | c | c |  }
+  \hline			
+   & mass [$M_{\odot}$] &  $\v{r}_{initial}$ [AU] & $\v{v}_{initial}$ [AU/day]  
+  \\ \hline
+  Sun & $1.0$ & $(1.0,1.0,1.0)$  & $(0.0,0.0,0.0)$ 
+  \\ \hline
+  Earth & $3.0\times 10^{-6}$ & $(2.0,1.0,1.0)$ & $(0.0,0.017,0.0)$
+  \\ \hline
+  Mars & $3.2\times 10^{-7}$ & $(-0.5,1.0,1.0)$  & $(0.0,0.014,0.0)$
+  \\ \hline
+\end{tabular}
+\end{center}
+\label{tab:SunEarthMarsTest}
+\end{table}
+
+    
+\begin{figure}[H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{Figures/sun_earth_mars_test_RK4.png}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{Figures/sun_earth_mars_test_VV.png}
+\end{minipage}
+\caption{
+Time evolution of the simplified system of Sun-Earth-Mars over a time period of 20 years using Runge-Kutta (leftmost) and Velocity-Verlet (rightmost) method with a time step length of 1 day.
+The masses, initial positions, and initial velocities of the three objects are given in \tabref{tab:SunEarthMarsTest}.
+}
+\label{fig:SunEarthMarsTest}
+\end{figure}

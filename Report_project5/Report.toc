@@ -9,5 +9,6 @@
 \contentsline {subsection}{\numberline {2.2.1}Gaussian Distributed Mass}{7}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Uniformly Distributed Position}{8}{subsection.2.2.2}
 \contentsline {chapter}{\chapternumberline {3}Results and Discussion}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}{11}{section.3.1}
 \contentsline {chapter}{\chapternumberline {4}Conclusion}{13}{chapter.4}
 \contentsline {chapter}{Bibliography}{15}{section*.4}
