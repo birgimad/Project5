@@ -1,9 +1,22 @@
 \section{Newtonian two-body problem in three dimension}
 \label{Newton2body3D}
-\fxnote{make short intro, e.q. drawing}
-$\v{r}(t)$ is the three-dimensional space vector consisting of the coordinated $(x(t),y(t),z(t))$, whilst $\v{v}(t)$ is the three-dimensional velocity vector with coordinates $(v_x(t),v_y(t),v_z(t))$, both of which are dependent on time. 
+The problem of solving the time-evolution of a two-body system in three dimensions can reasonably be considered in two different coordinate systems: one coordinate system with one of the bodies in rest compared to the frame of reference in which the other body is moving, and one coordinate system with both of the bodies moving relative to the frame of reference. 
+Both of these reference systems are depicted in \figref{fig:2bodyproblem_coordinatesystems}. 
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.6\linewidth]{Figures/2bodyproblem_coordinatesystems.png}
+\caption{
+Two-dimensional illustration of the three-dimensional problem of determining determining the relative distance and relative velocity between two bodies. 
+In (a) body 1 with mass $m_1$ is considered stationary in position- and velocity-space, whilst body 2 with mass $m_2$ moves relative to body 1.
+In (b) both body 1 and 2 moves relative to the frame of reference in position and time, yielding that the position vector between body 1 and 2 is given as $\v{r}_{12} = \v{r}_2 - \v{r}_1$.
+}
+\label{fig:2bodyproblem_coordinatesystems}
+\end{figure}
+In the codes presented in this section, solving the problem in coordinate system (a) will first be considered for simplicity. Thereafter, the codes will be extended to include the movement of body 1 relative to the coordinate system, since this will be useful when extending the codes to an N body system.  
 
-In general, the differential equation that is considered is
+In the problem, $\v{r}(t)$ is the three-dimensional space vector consisting of the coordinated $(x(t),y(t),z(t))$, whilst $\v{v}(t)$ is the three-dimensional velocity vector with coordinates $(v_x(t),v_y(t),v_z(t))$, both of which are dependent on time. 
+
+In general, the considered differential equation is
 \begin{align}
 	\frac{dy}{dt} = f(t,y)
 	\label{eq:diffEq1}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  6 DEC 2015 22:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  7 DEC 2015 09:23
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1538,39 +1538,47 @@ line 3.
 dy3D.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [3])
+
+<Figures/2bodyproblem_coordinatesystems.png, id=119, 542.025pt x 250.9375pt>
+File: Figures/2bodyproblem_coordinatesystems.png Graphic file (type png)
+
+<use Figures/2bodyproblem_coordinatesystems.png>
+Package pdftex.def Info: Figures/2bodyproblem_coordinatesystems.png used on inp
+ut line 7.
+(pdftex.def)             Requested size: 276.5638pt x 128.04152pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 12.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+ [3 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/2bodyp
+roblem_coordinatesystems.png>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodVV.
 tex [4])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodRK4
-.tex [5])
+.tex [5] [6])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
-gPosMassVel.tex [6]
-<Figures/random_mass_test.png, id=238, 422.32782pt x 316.18124pt>
+gPosMassVel.tex
+<Figures/random_mass_test.png, id=228, 422.32782pt x 316.18124pt>
 File: Figures/random_mass_test.png Graphic file (type png)
 
 <use Figures/random_mass_test.png>
 Package pdftex.def Info: Figures/random_mass_test.png used on input line 33.
 (pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 36.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
- [7 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/random
-_mass_test.png (PNG copy)>]
+ [7] [8 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/ra
+ndom_mass_test.png (PNG copy)>]
 
-LaTeX Warning: Reference `Cross_sectional_area' on page 8 undefined on input li
+LaTeX Warning: Reference `Cross_sectional_area' on page 9 undefined on input li
 ne 70.
 
-<Figures/Cross_sectional_area.png, id=272, 371.3875pt x 281.05pt>
+<Figures/Cross_sectional_area.png, id=299, 371.3875pt x 281.05pt>
 File: Figures/Cross_sectional_area.png Graphic file (type png)
 
 <use Figures/Cross_sectional_area.png>
 Package pdftex.def Info: Figures/Cross_sectional_area.png used on input line 73
 .
 (pdftex.def)             Requested size: 184.37119pt x 139.52544pt.
- [8 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Cross_
-sectional_area.png>]
-<Figures/random_uniform_position_test.png, id=303, 422.32782pt x 316.18124pt>
+
+<Figures/random_uniform_position_test.png, id=300, 422.32782pt x 316.18124pt>
 File: Figures/random_uniform_position_test.png Graphic file (type png)
 
 <use Figures/random_uniform_position_test.png>
@@ -1579,12 +1587,13 @@ Package pdftex.def Info: Figures/random_uniform_position_test.png used on input
 (pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
-ex [9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/rand
-om_uniform_position_test.png (PNG copy)>] [10
-
-])
+ex [9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Cros
+s_sectional_area.png>] [10 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_
+project5/Figures/random_uniform_position_test.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
-n.tex [11] [12
+n.tex [11
+
+] [12
 
 ])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
@@ -1613,17 +1622,17 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 20386 strings out of 493921
- 308418 string characters out of 3147273
- 627110 words of memory out of 3000000
- 23016 multiletter control sequences out of 15000+200000
- 82869 words of font info for 176 fonts, out of 3000000 for 9000
+ 20394 strings out of 493921
+ 308682 string characters out of 3147273
+ 624134 words of memory out of 3000000
+ 23021 multiletter control sequences out of 15000+200000
+ 83499 words of font info for 178 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,895b,1834s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not ex
+ 57i,19n,97p,1278b,1735s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
 t, replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
@@ -1637,9 +1646,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (23 pages, 223815 bytes).
+Output written on Report.pdf (23 pages, 233508 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
+ 417 PDF objects out of 1000 (max. 8388607)
  172 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

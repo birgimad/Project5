@@ -5,9 +5,9 @@
 \contentsline {section}{\numberline {2.1}Newtonian two-body problem in three dimension}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Velocity-Verlet method}{4}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Fourth Order Runge-Kutta Method}{5}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Generating Position, Mass and Velocity for Cluster Particles}{6}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Gaussian Distributed Mass}{6}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Uniformly Distributed Position}{7}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.2}Generating Position, Mass and Velocity for Cluster Particles}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Gaussian Distributed Mass}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Uniformly Distributed Position}{8}{subsection.2.2.2}
 \contentsline {chapter}{\chapternumberline {3}Results and Discussion}{11}{chapter.3}
 \contentsline {chapter}{\chapternumberline {4}Conclusion}{13}{chapter.4}
 \contentsline {chapter}{Bibliography}{15}{section*.4}
