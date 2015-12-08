@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  8 DEC 2015 14:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  8 DEC 2015 14:46
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex (C:\Use
@@ -1368,14 +1368,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 ion.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Method.te
 x
+
+LaTeX Warning: Reference `Method:GeneratingPosMassVel' on page 3 undefined on i
+nput line 6.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 3.
+line 8.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/conversio
 n.tex
@@ -1393,13 +1397,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
-LaTeX Warning: Reference `eq:diffEq2' on page 4 undefined on input line 38.
+LaTeX Warning: Reference `eq:diffEq2' on page 5 undefined on input line 38.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodVV.
 tex
 
-LaTeX Warning: Reference `eq:TaylorExpVVmethod' on page 5 undefined on input li
+LaTeX Warning: Reference `eq:TaylorExpVVmethod' on page 6 undefined on input li
 ne 11.
 
 
@@ -1440,7 +1444,10 @@ Energy.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
 ex
 
-LaTeX Warning: Reference `chap:method' on page 13 undefined on input line 5.
+LaTeX Warning: Reference `Newton2body3D' on page 13 undefined on input line 4.
+
+
+LaTeX Warning: Reference `chap:method' on page 13 undefined on input line 11.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/stability
@@ -1512,12 +1519,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 19789 strings out of 493922
- 300554 string characters out of 3147296
- 619850 words of memory out of 3000000
- 22640 multiletter control sequences out of 15000+200000
+ 19790 strings out of 493922
+ 300583 string characters out of 3147296
+ 618850 words of memory out of 3000000
+ 22641 multiletter control sequences out of 15000+200000
  47793 words of font info for 129 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,620b,1807s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,620b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.
