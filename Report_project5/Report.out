@@ -8,8 +8,9 @@
 \BOOKMARK [1][-]{section.2.3}{Generating Position, Mass and Velocity for Cluster Particles}{chapter.2}% 8
 \BOOKMARK [2][-]{subsection.2.3.1}{Gaussian Distributed Mass}{section.2.3}% 9
 \BOOKMARK [2][-]{subsection.2.3.2}{Uniformly Distributed Position}{section.2.3}% 10
-\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 11
-\BOOKMARK [1][-]{section.3.1}{Stability of the 2-body System using Runge-Kutta and Velovity-Verlet}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}{chapter.3}% 13
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 14
-\BOOKMARK [0][-]{section*.4}{Bibliography}{}% 15
+\BOOKMARK [1][-]{section.2.4}{Computing the Energy}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Stability of the 2-body System using Runge-Kutta and Velovity-Verlet}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 15
+\BOOKMARK [0][-]{section*.4}{Bibliography}{}% 16
