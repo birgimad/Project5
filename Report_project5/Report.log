@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  7 DEC 2015 13:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  8 DEC 2015 11:11
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1327,7 +1327,20 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@dimlist=\toks52
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")))
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.aux)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.aux
+
+LaTeX Warning: Label `fig:SunEarthMarsTest' multiply defined.
+
+
+LaTeX Warning: Label `tab:SunEarthMarsTest' multiply defined.
+
+
+LaTeX Warning: Label `tab:SunEarthMarsTest' multiply defined.
+
+
+LaTeX Warning: Label `fig:SunEarthMarsTest' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -1345,8 +1358,7 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1437,7 +1449,7 @@ LaTeX Info: Redefining \Ref on input line 4.
 Frontpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- <Figures/UiO_Seal_A_ENG.png, id=59, 566.5968pt x 95.8782pt>
+ <Figures/UiO_Seal_A_ENG.png, id=63, 566.5968pt x 95.8782pt>
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
 
 <use Figures/UiO_Seal_A_ENG.png>
@@ -1541,7 +1553,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
  [3])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Newton2bo
 dy3D.tex
-<Figures/2bodyproblem_coordinatesystems.png, id=143, 542.025pt x 250.9375pt>
+<Figures/2bodyproblem_coordinatesystems.png, id=148, 542.025pt x 250.9375pt>
 File: Figures/2bodyproblem_coordinatesystems.png Graphic file (type png)
 
 <use Figures/2bodyproblem_coordinatesystems.png>
@@ -1560,7 +1572,7 @@ tex [5])
 .tex [6] [7])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
 gPosMassVel.tex [8]
-<Figures/random_mass_test.png, id=292, 422.32782pt x 316.18124pt>
+<Figures/random_mass_test.png, id=297, 422.32782pt x 316.18124pt>
 File: Figures/random_mass_test.png Graphic file (type png)
 
 <use Figures/random_mass_test.png>
@@ -1572,7 +1584,7 @@ _mass_test.png (PNG copy)>]
 LaTeX Warning: Reference `Cross_sectional_area' on page 10 undefined on input l
 ine 71.
 
-<Figures/Cross_sectional_area.png, id=325, 371.3875pt x 281.05pt>
+<Figures/Cross_sectional_area.png, id=330, 371.3875pt x 281.05pt>
 File: Figures/Cross_sectional_area.png Graphic file (type png)
 
 <use Figures/Cross_sectional_area.png>
@@ -1580,7 +1592,7 @@ Package pdftex.def Info: Figures/Cross_sectional_area.png used on input line 74
 .
 (pdftex.def)             Requested size: 184.37119pt x 139.52544pt.
 
-<Figures/random_uniform_position_test.png, id=326, 422.32782pt x 316.18124pt>
+<Figures/random_uniform_position_test.png, id=331, 422.32782pt x 316.18124pt>
 File: Figures/random_uniform_position_test.png Graphic file (type png)
 
 <use Figures/random_uniform_position_test.png>
@@ -1594,9 +1606,48 @@ ss_sectional_area.png>] [11 <C:/Users/Birgitte/Documents/GitHub/Project5/Report
 _project5/Figures/random_uniform_position_test.png (PNG copy)>] [12
 
 ])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/stability
+2bodysystem.tex
+<Figures/Test_2body_system_earth.png, id=362, 422.32782pt x 316.18124pt>
+File: Figures/Test_2body_system_earth.png Graphic file (type png)
+
+<use Figures/Test_2body_system_earth.png>
+Package pdftex.def Info: Figures/Test_2body_system_earth.png used on input line
+ 31.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+
+<Figures/Test_2body_system_earth_sun.png, id=363, 422.32782pt x 316.18124pt>
+File: Figures/Test_2body_system_earth_sun.png Graphic file (type png)
+
+<use Figures/Test_2body_system_earth_sun.png>
+Package pdftex.def Info: Figures/Test_2body_system_earth_sun.png used on input 
+line 35.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+ [13]
+<Figures/test_distance_time_VV.png, id=371, 422.32782pt x 316.18124pt>
+File: Figures/test_distance_time_VV.png Graphic file (type png)
+
+<use Figures/test_distance_time_VV.png>
+Package pdftex.def Info: Figures/test_distance_time_VV.png used on input line 5
+2.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+
+<Figures/test_distance_time_RK4.png, id=372, 422.32782pt x 316.18124pt>
+File: Figures/test_distance_time_RK4.png Graphic file (type png)
+
+<use Figures/test_distance_time_RK4.png>
+Package pdftex.def Info: Figures/test_distance_time_RK4.png used on input line 
+56.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+)
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/SunEarthM
-arsTest.tex
-<Figures/sun_earth_mars_test_RK4.png, id=356, 419.76825pt x 313.77225pt>
+arsTest.tex [14 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Fi
+gures/Test_2body_system_earth.png (PNG copy)> <C:/Users/Birgitte/Documents/GitH
+ub/Project5/Report_project5/Figures/Test_2body_system_earth_sun.png (PNG copy)>
+ <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/test_dist
+ance_time_VV.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Repor
+t_project5/Figures/test_distance_time_RK4.png (PNG copy)>]
+<Figures/sun_earth_mars_test_RK4.png, id=382, 419.76825pt x 313.77225pt>
 File: Figures/sun_earth_mars_test_RK4.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_RK4.png>
@@ -1604,7 +1655,7 @@ Package pdftex.def Info: Figures/sun_earth_mars_test_RK4.png used on input line
  30.
 (pdftex.def)             Requested size: 230.4675pt x 172.26884pt.
 
-<Figures/sun_earth_mars_test_VV.png, id=357, 418.56375pt x 314.3745pt>
+<Figures/sun_earth_mars_test_VV.png, id=383, 418.56375pt x 314.3745pt>
 File: Figures/sun_earth_mars_test_VV.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_VV.png>
@@ -1613,13 +1664,13 @@ Package pdftex.def Info: Figures/sun_earth_mars_test_VV.png used on input line
 (pdftex.def)             Requested size: 230.4675pt x 173.09837pt.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
-n.tex [13] [14 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Fig
-ures/sun_earth_mars_test_RK4.png> <C:/Users/Birgitte/Documents/GitHub/Project5/
-Report_project5/Figures/sun_earth_mars_test_VV.png>])
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
-[15
+n.tex [15 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/
+sun_earth_mars_test_RK4.png> <C:/Users/Birgitte/Documents/GitHub/Project5/Repor
+t_project5/Figures/sun_earth_mars_test_VV.png>] [16
 
-] [16
+])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
+[17] [18
 
 ]
 bibitemlist
@@ -1628,30 +1679,33 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) 
 AED: lastpage setting LastPage
-[17]
+[19]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: EB8064FAEF5171FEE3A65AC312519E78;1005.
+(rerunfilecheck)             Checksum: B89AEA181F3B7659DE5A3DA12EAB031E;1121.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 20463 strings out of 493921
- 310165 string characters out of 3147273
- 632004 words of memory out of 3000000
- 23056 multiletter control sequences out of 15000+200000
- 83921 words of font info for 180 fonts, out of 3000000 for 9000
+ 20508 strings out of 493921
+ 311369 string characters out of 3147273
+ 631212 words of memory out of 3000000
+ 23076 multiletter control sequences out of 15000+200000
+ 88337 words of font info for 190 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,1278b,1735s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not ex
 ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
@@ -1671,9 +1725,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (25 pages, 328045 bytes).
+Output written on Report.pdf (27 pages, 356036 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 204 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

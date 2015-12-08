@@ -1,0 +1,14 @@
+Runge-Kutta Method, 2 body, 3D
+Time: 36500 days
+Number of time steps: 36500
+Time step: 1 days
+final position:
+-0.950092
+-0.0849531
+0
+initial velocity:
+0.0015507
+-0.0177543
+0
+Final distance to sun: 1 AU
+Final energy:  0.000627932
