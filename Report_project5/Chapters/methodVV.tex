@@ -1,33 +1,34 @@
 \subsection{Velocity-Verlet method}
 \label{sec:methodVV}
-- Remember to write about accuracy of algorithm!!
-
-Consider the Taylor expansion of the vector function $\v{r}(t_i \pm \delta t)$:
+The basic idea of the Velocity-Verlet algorithm is to write the Taylor expansion of the position in Newton’s equation, one forward step and one backward step in time with step length $\delta t$ as
 \begin{align}
 	\v{r}(t_i \pm \delta t) = \v{r}(t_i) \pm \v{v} (t_i) \delta t
 	+ \v{a} (t_i) \frac{\delta t ^2}{2}  \pm \frac{\delta t ^3}{6} \frac{d^3 \v{r}(t_i)}{dt^3} + \mathcal{O}(\delta t ^4 )
 	\label{eq:TaylorExpVVmethod}
 \end{align}
+in which $\v{v}(t_i) = d\v{r}(t_i)/dt$ is the velocity, and $\v{a}(t_i) = d^2 \v{r}(t_i)/dt^2$ is the acceleration at time $t_i$.
 Adding the two expressions in \matref{eq:TaylorExpVVmethod} gives
 \begin{align}
 	\v{r} (t_i +\delta t) = 2\v{r} (t_i) - \v{r} (t_i -\delta t)  + \v{a} (t_i ) \delta t^2 + \mathcal{O} (\delta t ^4 )
+	\label{eq:TaylorExpVVmethod2}
 \end{align}
 which has a truncation error that goes as $\mathcal{O} (\delta t ^4 )$.
+Now, using $\v{r}(t_i-\delta t) = \v{r}(t_i) - \v{v}(t_i) \delta t + \v{a} \delta t^2 /2 + \mathcal{O} (\delta t^3)$, yield that the position at time $t_i+\delta t$ can be determined as 
 \begin{align}
 	\v{r}(t_i+\delta t) = \v{r}(t_i) + \v{v} (t_i) \delta t + \frac{1}{2} \v{a} (t_i) \delta t^2 
 	\label{eq:VVmethodNextPosition}
 \end{align}
-
+Since the velocity is not included in \matref{eq:TaylorExpVVmethod2}, it is computed through the Velocity-Verlet scheme where position, velocity and acceleration at time $t_i+\delta t$ is computed from the Taylor expansion as
 \begin{align}
 	\v{v} (t + \delta t) = \v{v} (t) + \frac{1}{2} ( \v{a} (t) + \v{a} (t + \delta t) ) \delta t
 	\label{eq:VVmethodNextVelocity}
 \end{align}
-The velocity is in the algorithm calculated \fxnote{ad to gange} by first calculating 
+The velocity at time $t_i+\delta t$ is in the algorithm computed by first calculating 
 \begin{align}
 	\v{v}_{part1} (t + \delta t) = \v{v} (t) + \frac{1}{2}  \v{a} (t)  \delta t
 	\label{eq:VVmethodNextVelocityPart1}
 \end{align}
-and then use ?? \fxnote{fix this!} to determine $\v{a} (t + \delta t)$, which is then used to compute the remaining term of \matref{eq:VVmethodNextVelocity} as 
+and then use the \textit{Derivative} function to determine $\v{a} (t + \delta t)$, which is then used to compute the remaining term of \matref{eq:VVmethodNextVelocity} as 
 \begin{align}
 	\v{v}_{part2} (t + \delta t) = \frac{1}{2} \v{a} (t + \delta t) \delta t
 	\label{eq:VVmethodNextVelocityPart2}

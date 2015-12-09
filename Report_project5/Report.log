@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  9 DEC 2015 10:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  9 DEC 2015 11:44
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1562,12 +1562,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 roblem_coordinatesystems.png>]
 [5])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodVV.
-tex [6])
+tex
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+ [6])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/methodRK4
 .tex [7])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
 gPosMassVel.tex [8]
-<Figures/Gaussian_mass_generation_ill.png, id=282, 291.0875pt x 250.9375pt>
+<Figures/Gaussian_mass_generation_ill.png, id=281, 291.0875pt x 250.9375pt>
 File: Figures/Gaussian_mass_generation_ill.png Graphic file (type png)
 
 <use Figures/Gaussian_mass_generation_ill.png>
@@ -1576,28 +1580,28 @@ Package pdftex.def Info: Figures/Gaussian_mass_generation_ill.png used on input
 (pdftex.def)             Requested size: 184.37119pt x 158.94531pt.
  [9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Gaussi
 an_mass_generation_ill.png>]
-<Figures/random_mass_test.png, id=295, 422.32782pt x 316.18124pt>
+<Figures/random_mass_test.png, id=289, 422.32782pt x 316.18124pt>
 File: Figures/random_mass_test.png Graphic file (type png)
 
 <use Figures/random_mass_test.png>
 Package pdftex.def Info: Figures/random_mass_test.png used on input line 77.
 (pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
+ [10]
 
-
-LaTeX Warning: Citation `AddNotesAstroUniDist' on page 10 undefined on input li
+LaTeX Warning: Citation `AddNotesAstroUniDist' on page 11 undefined on input li
 ne 87.
 
-[10 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/random
+[11 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/random
 _mass_test.png (PNG copy)>]
-<Figures/Cross_sectional_area.png, id=322, 371.3875pt x 281.05pt>
+<Figures/Cross_sectional_area.png, id=334, 371.3875pt x 281.05pt>
 File: Figures/Cross_sectional_area.png Graphic file (type png)
 
 <use Figures/Cross_sectional_area.png>
 Package pdftex.def Info: Figures/Cross_sectional_area.png used on input line 13
 3.
 (pdftex.def)             Requested size: 184.37119pt x 139.52544pt.
- [11]
-<Figures/random_uniform_position_test.png, id=353, 422.32782pt x 316.18124pt>
+
+<Figures/random_uniform_position_test.png, id=335, 422.32782pt x 316.18124pt>
 File: Figures/random_uniform_position_test.png Graphic file (type png)
 
 <use Figures/random_uniform_position_test.png>
@@ -1607,15 +1611,15 @@ Package pdftex.def Info: Figures/random_uniform_position_test.png used on input
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Computing
 Energy.tex [12 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Fig
-ures/Cross_sectional_area.png> <C:/Users/Birgitte/Documents/GitHub/Project5/Rep
-ort_project5/Figures/random_uniform_position_test.png (PNG copy)>])
+ures/Cross_sectional_area.png>] [13 <C:/Users/Birgitte/Documents/GitHub/Project
+5/Report_project5/Figures/random_uniform_position_test.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
-ex [13] [14
-
-])
+ex [14])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/stability
-2bodysystem.tex [15]
-<Figures/Test_2body_system_earth.png, id=403, 422.32782pt x 316.18124pt>
+2bodysystem.tex [15
+
+]
+<Figures/Test_2body_system_earth.png, id=402, 422.32782pt x 316.18124pt>
 File: Figures/Test_2body_system_earth.png Graphic file (type png)
 
 <use Figures/Test_2body_system_earth.png>
@@ -1623,7 +1627,7 @@ Package pdftex.def Info: Figures/Test_2body_system_earth.png used on input line
  35.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/Test_2body_system_earth_sun.png, id=404, 422.32782pt x 316.18124pt>
+<Figures/Test_2body_system_earth_sun.png, id=403, 422.32782pt x 316.18124pt>
 File: Figures/Test_2body_system_earth_sun.png Graphic file (type png)
 
 <use Figures/Test_2body_system_earth_sun.png>
@@ -1631,7 +1635,7 @@ Package pdftex.def Info: Figures/Test_2body_system_earth_sun.png used on input
 line 39.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/test_distance_time_VV.png, id=406, 422.32782pt x 316.18124pt>
+<Figures/test_distance_time_VV.png, id=405, 422.32782pt x 316.18124pt>
 File: Figures/test_distance_time_VV.png Graphic file (type png)
 
 <use Figures/test_distance_time_VV.png>
@@ -1639,7 +1643,7 @@ Package pdftex.def Info: Figures/test_distance_time_VV.png used on input line 5
 5.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/test_distance_time_RK4.png, id=407, 422.32782pt x 316.18124pt>
+<Figures/test_distance_time_RK4.png, id=406, 422.32782pt x 316.18124pt>
 File: Figures/test_distance_time_RK4.png Graphic file (type png)
 
 <use Figures/test_distance_time_RK4.png>
@@ -1654,7 +1658,7 @@ ime_VV.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Report_proj
 ect5/Figures/test_distance_time_RK4.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/SunEarthM
 arsTest.tex
-<Figures/sun_earth_mars_test_RK4.png, id=425, 419.76825pt x 313.77225pt>
+<Figures/sun_earth_mars_test_RK4.png, id=424, 419.76825pt x 313.77225pt>
 File: Figures/sun_earth_mars_test_RK4.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_RK4.png>
@@ -1662,7 +1666,7 @@ Package pdftex.def Info: Figures/sun_earth_mars_test_RK4.png used on input line
  30.
 (pdftex.def)             Requested size: 230.4675pt x 172.26884pt.
 
-<Figures/sun_earth_mars_test_VV.png, id=426, 418.56375pt x 314.3745pt>
+<Figures/sun_earth_mars_test_VV.png, id=425, 418.56375pt x 314.3745pt>
 File: Figures/sun_earth_mars_test_VV.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_VV.png>
@@ -1706,13 +1710,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
  20549 strings out of 493921
- 312332 string characters out of 3147273
- 628897 words of memory out of 3000000
- 23095 multiletter control sequences out of 15000+200000
+ 312343 string characters out of 3147273
+ 628951 words of memory out of 3000000
+ 23096 multiletter control sequences out of 15000+200000
  88337 words of font info for 190 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,1278b,1735s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
 st, replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
@@ -1727,9 +1731,9 @@ iKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 bi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (29 pages, 388904 bytes).
+Output written on Report.pdf (29 pages, 389665 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 222 named destinations out of 1000 (max. 500000)
+ 538 PDF objects out of 1000 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
