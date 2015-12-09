@@ -1,4 +1,4 @@
-#include "include/armadillo"
+#include <armadillo>
 #include <cmath>
 #include <iostream>
 #include <fstream>
@@ -32,6 +32,35 @@ void gaussian_mass_generator(vec (&mass), int number_of_particles)
   }
 } // end function for gaussian deviates
 
+void uniform_pos_generator(mat (&position), int N)
+{
+double pi=3.14159;
+double c = 2*pi;
+double R = 20;
+vec phi(N);
+vec r(N);
+vec theta(N);
+vec x(N);
+vec y(N);
+vec v(N);
+srand(time(NULL));
+
+for (int i=0;i<N;i++){
+
+        x(i) = ((double) rand() / (RAND_MAX)); //random numbers generated in the interval(0,1)
+        y(i) = ((double) rand() / (RAND_MAX));
+        v(i) = ((double) rand() / (RAND_MAX));
+
+    }
+for (int i=0;i<N;i++){
+   phi(i)=c*x(i);
+   r(i)=R*pow(y(i),1.0/3.0);
+   theta(i)=acos(1.0-2.0*v(i));
+   position(i,0)=r(i)*sin(theta(i))*cos(phi(i));
+   position(i,1)=r(i)*sin(theta(i))*sin(phi(i));
+   position(i,2)= r(i)*cos(theta(i));
+    }
+}
 
 void Derivative(mat r, mat v, vec m, mat (&drdt), mat (&dvdt), double G, int number_of_particles){
     double acc_x = 0, acc_y = 0, acc_z = 0;
@@ -72,57 +101,30 @@ void Derivative(mat r, mat v, vec m, mat (&drdt), mat (&dvdt), double G, int num
 }
 
 
-
 int main()
 {
-    ofstream myfile ("VV_sun_earth_mars_test.txt");
-            if (myfile.is_open())
-            {
-    int number_of_particles = 3;
+    int number_of_particles = 100;
     int n = 3;
-    double G = 2.96e-4;     //Grav const in the units of AU^3 / ( days^3 * mass_sun )
+    double G = 1.563e-13;     //Grav const in the units of lightyear^3 / ( year^3 * mass_sun )
     double t0 = 0.0;
-    double t_final = 20*365;     //time in the unit of days
-    int number_of_time_step = 20*365;
+    double t_final = 1e7;     //time in the unit of years
+    int number_of_time_step = 1e5;
     double time = t0;
     double dt = (t_final - t0)/number_of_time_step;
     mat r(number_of_particles,3);
+    r.zeros();
     mat v(number_of_particles,3);
-    mat r_initial(number_of_particles,3);
-    mat v_initial(number_of_particles,3);
-    //position of Sun
-    r(0,0) = 1.0;
-    r(0,1) = 1.0;
-    r(0,2) = 1.0;
-    //position of Earth
-    r(1,0) = 2.0;
-    r(1,1) = 1.0;
-    r(1,2) = 1.0;
-    //position of Mars
-    r(2,0) = -0.5;
-    r(2,1) = 1.0;
-    r(2,2) = 1.0;
-    //velocity of Sun
-    v(0,0) = 0.0;
-    v(0,1) = 0.0;
-    v(0,2) = 0.0;
-    //velocity of Earth
-    v(1,0) = 0.0;
-    v(1,1) = 0.017;
-    v(1,2) = 0.0;
-    //velocity of Mars
-    v(2,0) = 0.0;
-    v(2,1) = 0.014;
-    v(2,2) = 0.0;
-    vec m(number_of_particles);
-    m(0) = 1.0;
-    m(1) = 3.0e-6;
-    m(2) = 3.2e-7;
-    myfile << "Sun_x" << setw(20) << "Sun_y" << setw(20) << "Sun_z" << setw(20) << "Earth_x" << setw(20) << "Earth_y" << setw(20) << "Earth_z" << setw(20) << "Mars_x" << setw(20) << "Mars_y" << setw(20) << "Mars_z" << endl;
-    myfile << r(0,0) << setw(20) << r(0,1) << setw(20) << r(0,2) << setw(20) << r(1,0) << setw(20) << r(1,1) << setw(20) << r(1,2) << setw(20) << r(2,0) << setw(20) << r(2,1) << setw(20) << r(2,2) << endl;
-
+    v.zeros();
     mat v_partly(number_of_particles,3);
     v_partly.zeros();
+    mat r_initial(number_of_particles,3);
+    mat v_initial(number_of_particles,3);
+    vec m(number_of_particles);
+    m.zeros();
+    gaussian_mass_generator(m,number_of_particles);
+    uniform_pos_generator(r,number_of_particles);
+    r_initial = r;
+    v_initial = v;
     mat drdt(number_of_particles,3);
     drdt.zeros();
     mat dvdt(number_of_particles,3);
@@ -143,10 +145,28 @@ int main()
         v(i,j) = v_partly(i,j)+0.5*dt*dvdt(i,j);
             }
         }
-        myfile << r(0,0) << setw(20) << r(0,1) << setw(20) << r(0,2) << setw(20) << r(1,0) << setw(20) << r(1,1) << setw(20) << r(1,2) << setw(20) << r(2,0) << setw(20) << r(2,1) << setw(20) << r(2,2) << endl;
 
     time += dt;
     }
-    }
-}
 
+    vec distance_to_center_initial(number_of_particles);
+    vec distance_to_center_final(number_of_particles);
+    for (int i = 0; i<number_of_particles; i++)
+    {
+        //cout << m(i) << endl;
+        distance_to_center_initial(i) = pow(r_initial(i,0)*r_initial(i,0)+r_initial(i,1)*r_initial(i,1)+r_initial(i,2)*r_initial(i,2),0.5);
+        distance_to_center_final(i) = pow(r(i,0)*r(i,0)+r(i,1)*r(i,1)+r(i,2)*r(i,2),0.5);
+        cout << distance_to_center_initial(i) << setw(15) << distance_to_center_final(i) << endl;
+    }
+
+    ofstream myfile ("100particles_time_1e5.txt");
+            if (myfile.is_open())
+            {
+                 myfile << "value of dt: "<< dt;
+                 myfile << "initial distance" << setw(15) << "final distance" << endl;
+                for (int i=0;i<number_of_particles; i++){
+                 myfile << distance_to_center_initial(i) << setw(15) << distance_to_center_final(i) << endl;
+                 }
+            }
+
+}
