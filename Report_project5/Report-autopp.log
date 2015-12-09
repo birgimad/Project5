@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  8 DEC 2015 14:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  9 DEC 2015 10:19
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex (C:\Use
@@ -1427,16 +1427,20 @@ LaTeX Warning: Reference `eq:RK4nextxtep1' on page 7 undefined on input line 44
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
 gPosMassVel.tex
 
-LaTeX Warning: Reference `fig:Gaussian_mass_generation_ill' on page 8 undefined
- on input line 29.
+LaTeX Warning: Reference `fig:Gaussian_mass_generation_ill' on page 9 undefined
+ on input line 34.
 
 
-LaTeX Warning: Reference `fig:UniformlyGeneratedPos' on page 10 undefined on in
-put line 127.
+LaTeX Warning: Citation `AddNotesAstroUniDist' on page 10 undefined on input li
+ne 87.
 
 
-LaTeX Warning: Reference `fig:Cross_sectional_area' on page 10 undefined on inp
-ut line 128.
+LaTeX Warning: Reference `fig:UniformlyGeneratedPos' on page 11 undefined on in
+put line 129.
+
+
+LaTeX Warning: Reference `fig:Cross_sectional_area' on page 11 undefined on inp
+ut line 130.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Computing
@@ -1453,22 +1457,48 @@ LaTeX Warning: Reference `chap:method' on page 13 undefined on input line 11.
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/stability
 2bodysystem.tex
 
-LaTeX Warning: Reference `sec:Conversion' on page 13 undefined on input line 10
+LaTeX Warning: Reference `tab:SunEarthMarsTest' on page 13 undefined on input l
+ine 6.
+
+
+LaTeX Warning: Reference `sec:Conversion' on page 13 undefined on input line 13
 .
 
 
-LaTeX Warning: Reference `sec:Conversion' on page 13 undefined on input line 10
+LaTeX Warning: Reference `sec:Conversion' on page 13 undefined on input line 13
 .
+
+
+LaTeX Warning: Reference `fig:SunEarthMarsTest' on page 14 undefined on input l
+ine 29.
+
+
+LaTeX Warning: Reference `fig:SunEarthMarsTest2' on page 14 undefined on input 
+line 50.
+
+
+LaTeX Warning: Reference `fig:SunEarthMarsTest2' on page 14 undefined on input 
+line 71.
+
+
+LaTeX Warning: Reference `sec:methodRK4' on page 14 undefined on input line 71.
+
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/SunEarthM
 arsTest.tex
 
-LaTeX Warning: Reference `tab:SunEarthMarsTest' on page 14 undefined on input l
+LaTeX Warning: Reference `Newton2body3D' on page 15 undefined on input line 8.
+
+
+LaTeX Warning: Reference `Newton2body3D' on page 15 undefined on input line 8.
+
+
+LaTeX Warning: Reference `tab:SunEarthMarsTest' on page 15 undefined on input l
 ine 39.
 
 
-LaTeX Warning: Reference `tab:SunEarthMarsTest' on page 14 undefined on input l
+LaTeX Warning: Reference `tab:SunEarthMarsTest' on page 15 undefined on input l
 ine 39.
 
 )
@@ -1519,12 +1549,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 19790 strings out of 493922
- 300583 string characters out of 3147296
- 618850 words of memory out of 3000000
- 22641 multiletter control sequences out of 15000+200000
+ 19794 strings out of 493922
+ 300665 string characters out of 3147296
+ 619850 words of memory out of 3000000
+ 22645 multiletter control sequences out of 15000+200000
  47793 words of font info for 129 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,620b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,644b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.
