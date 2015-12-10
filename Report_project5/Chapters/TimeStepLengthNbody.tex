@@ -79,3 +79,17 @@ The depicted particle probability at the distance $r=20$ ly correspond to partic
 As for the radial distribution after $10^7$ years computed by the Velocity-Verlet method, the final distribution shown in \figref{fig:histograms_RK4_diff_time_step}, computed by the fourth order Runge-Kutta method, show the three features: high density close to the center, low density at a more than $10$ ly from the center, and an ejection of particles from the cluster.
 However, for long time steps, that is $dt = 10^6$ yr, these features are not as distinct, yielding that this step length is too long for the Runge-Kutta method. 
 Unlike the Velocity-Verlet method, the amount of particles that are ejected from the cluster using the Runge-Kutta method seems, however, to be stable for all depicted step lengths at around $30 \%$. 
+
+In the two particle case the Velocity-Verlet method seemed like it was the most stable method over time. Looking at the N particle case the Velocity-Verlet is more dependent of the choice of time step, whilst the Runge-Kutta 4 method is more stable towards the change in time-step. This might have a lot to say for the stability of the system and the computational time. Therefore the Runge-Kutta 4 method seems like the better choice when looking at times greater than $\tau_{crunch}$. 
+
+
+
+After finding the positions of the particles after a time in the order of a $\tau_{crunch}$, the star cluster have not collapsed into a mass in the middle. Therefore using $\tau_{crunch}$ as a unit of time to study the further behaviour is a natural conclusion. For this to work the gravitational constant has to be transformed into units that fits and for the N particle case. Using \matref{eq:t_crunch} it's possible to find the gravitational constant as a function of particles N.  
+\begin{align}
+G = 986.96 \frac{1}{N} \frac{\textrm{ly}^3}{\tau_{crunch}^2\textrm{m}_{mean}}
+\end{align}
+
+Now when looking at timescales larger than $\tau_{crunch}$, the time steps have to be calculated from the new unit of time $\tau_{crunch}$. From the histograms in \figref{fig:histograms_RK4_diff_time_step} the best time step length to choose is $10^5$ years. If this is then transformed into the new time scale it is
+\begin{align*}
+dt = 10^{-3} \tau_{crunch}
+\end{align*}
