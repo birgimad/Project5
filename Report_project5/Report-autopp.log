@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  10 DEC 2015 10:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  10 DEC 2015 10:31
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex (C:\Use
@@ -1544,19 +1544,19 @@ d on input line 44.
 
 
 LaTeX Warning: Reference `sec:stability2bodysystem' on page 16 undefined on inp
-ut line 50.
+ut line 49.
 
 
 LaTeX Warning: Reference `fig:SunEarthDistanceAfter100yr' on page 16 undefined 
-on input line 50.
+on input line 49.
 
 
 LaTeX Warning: Reference `fig:histograms_VV_diff_time_step' on page 16 undefine
-d on input line 51.
+d on input line 50.
 
 
 LaTeX Warning: Reference `fig:histograms_RK4_diff_time_step' on page 17 undefin
-ed on input line 80.
+ed on input line 79.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
