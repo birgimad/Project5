@@ -4,9 +4,9 @@ clc
 
 %Import data and define closed-form solution
 %Data for ordered spins (up = 1) and T = 1.0
-filename = 'Time_step_length_N_bodies_VV.xlsx';
-sheet = 4;
-xlRange = 'A2:B101';
+filename = 'Time_step_length_N_bodies_RK4.xlsx';
+sheet = 9;
+xlRange = 'A3:B102';
 [v,T,vT] = xlsread(filename, sheet, xlRange);
 pos_initial_1=v(:,1);
 pos_final_1=v(:,2);
