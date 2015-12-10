@@ -1,0 +1,4 @@
+dt: 0.073
+initial distance final distance
+0.691721        45.7024
+0.97299        198.511
