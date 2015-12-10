@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  9 DEC 2015 11:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  10 DEC 2015 10:05
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex (C:\Use
@@ -1509,6 +1509,56 @@ LaTeX Warning: Reference `tab:SunEarthMarsTest' on page 15 undefined on input l
 ine 39.
 
 )
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/TimeStepL
+engthNbody.tex
+
+LaTeX Warning: Reference `eq:t_crunch' on page 16 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:Conversion' on page 16 undefined on input line 10
+.
+
+
+LaTeX Warning: Reference `fig:histograms_VV_diff_time_step' on page 16 undefine
+d on input line 16.
+
+
+LaTeX Warning: Reference `fig:histograms_RK4_diff_time_step' on page 16 undefin
+ed on input line 16.
+
+
+LaTeX Warning: Reference `Method:GeneratingPosMassVel' on page 16 undefined on 
+input line 17.
+
+
+LaTeX Warning: Reference `fig:histograms_VV_diff_time_step' on page 16 undefine
+d on input line 18.
+
+
+LaTeX Warning: Reference `fig:histograms_RK4_diff_time_step' on page 16 undefin
+ed on input line 18.
+
+
+LaTeX Warning: Reference `fig:histograms_VV_diff_time_step' on page 16 undefine
+d on input line 44.
+
+
+LaTeX Warning: Reference `sec:stability2bodysystem' on page 16 undefined on inp
+ut line 50.
+
+
+LaTeX Warning: Reference `fig:SunEarthDistanceAfter100yr' on page 16 undefined 
+on input line 50.
+
+
+LaTeX Warning: Reference `fig:histograms_VV_diff_time_step' on page 16 undefine
+d on input line 51.
+
+
+LaTeX Warning: Reference `fig:histograms_RK4_diff_time_step' on page 17 undefin
+ed on input line 80.
+
+)
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
 n.tex)
 No file Report-autopp.bbl.
@@ -1516,7 +1566,7 @@ No file Report-autopp.bbl.
 Package pst-pdf Warning: Picture container needs cropping..
 
 
-Package lastpage Warning: Rerun to get the references right on input line 41.
+Package lastpage Warning: Rerun to get the references right on input line 42.
 
 
 ! Package lastpage Error: No auxiliary file allowed.
@@ -1525,7 +1575,7 @@ See the lastpage package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \end{document}
+l.42 \end{document}
                    
 The lastpage package was not allowed to write to an .aux file.
 This package does not work without access to an .aux file.
@@ -1539,27 +1589,27 @@ See the lastpage package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \end{document}
+l.42 \end{document}
                    
 The lastpage package was not allowed to write to an .aux file.
 This package does not work without access to an .aux file.
 Press Ctrl+Z to exit.
 
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 41.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 42.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 42.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 19795 strings out of 493922
- 300688 string characters out of 3147296
+ 19815 strings out of 493922
+ 301188 string characters out of 3147296
  619850 words of memory out of 3000000
- 22646 multiletter control sequences out of 15000+200000
+ 22653 multiletter control sequences out of 15000+200000
  47793 words of font info for 129 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  57i,19n,97p,644b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
