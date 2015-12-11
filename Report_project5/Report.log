@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  11 DEC 2015 16:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  11 DEC 2015 18:21
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1291,16 +1291,7 @@ x [1
 
 ] [2
 
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 8.
-)
+])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/conversio
 n.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
@@ -1308,7 +1299,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
  [3])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Newton2bo
 dy3D.tex
-<Figures/2bodyproblem_coordinatesystems.png, id=173, 542.025pt x 250.9375pt>
+<Figures/2bodyproblem_coordinatesystems.png, id=169, 542.025pt x 250.9375pt>
 File: Figures/2bodyproblem_coordinatesystems.png Graphic file (type png)
 
 <use Figures/2bodyproblem_coordinatesystems.png>
@@ -1330,7 +1321,7 @@ Missing character: There is no ™ in font ptmr7t!
 .tex [7])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/argumentf
 orepsilon.tex
-<Figures/argument_for_epsilon.png, id=261, 501.875pt x 271.0125pt>
+<Figures/argument_for_epsilon.png, id=262, 501.875pt x 271.0125pt>
 File: Figures/argument_for_epsilon.png Graphic file (type png)
 
 <use Figures/argument_for_epsilon.png>
@@ -1343,11 +1334,11 @@ Underfull \hbox (badness 1142) in paragraph at lines 13--14
 cts as a smoothing function, giving a
  []
 
-[8 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/argumen
-t_for_epsilon.png>])
+)
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
-gPosMassVel.tex
-<Figures/Gaussian_mass_generation_ill.png, id=294, 291.0875pt x 250.9375pt>
+gPosMassVel.tex [8 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5
+/Figures/argument_for_epsilon.png>]
+<Figures/Gaussian_mass_generation_ill.png, id=291, 291.0875pt x 250.9375pt>
 File: Figures/Gaussian_mass_generation_ill.png Graphic file (type png)
 
 <use Figures/Gaussian_mass_generation_ill.png>
@@ -1383,8 +1374,6 @@ put line 50.
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 51.
 
-[9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Gaussia
-n_mass_generation_ill.png>]
 
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 52.
@@ -1481,6 +1470,8 @@ put line 57.
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 57.
 
+[9 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Gaussia
+n_mass_generation_ill.png>]
 
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 58.
@@ -1773,45 +1764,53 @@ put line 73.
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 73.
 
-<Figures/random_mass_test.png, id=303, 422.32782pt x 316.18124pt>
+<Figures/random_mass_test.png, id=306, 422.32782pt x 316.18124pt>
 File: Figures/random_mass_test.png Graphic file (type png)
 
 <use Figures/random_mass_test.png>
 Package pdftex.def Info: Figures/random_mass_test.png used on input line 80.
-(pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
- [10] [11 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/
-random_mass_test.png (PNG copy)>]
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+ [10 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/rando
+m_mass_test.png (PNG copy)>]
 
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 132.
 
-<Figures/Cross_sectional_area.png, id=347, 371.3875pt x 281.05pt>
+<Figures/Cross_sectional_area.png, id=330, 371.3875pt x 281.05pt>
 File: Figures/Cross_sectional_area.png Graphic file (type png)
 
 <use Figures/Cross_sectional_area.png>
 Package pdftex.def Info: Figures/Cross_sectional_area.png used on input line 13
 4.
 (pdftex.def)             Requested size: 138.28189pt x 104.6473pt.
-
-<Figures/random_uniform_position_test.png, id=350, 422.32782pt x 316.18124pt>
+ [11]
+<Figures/random_uniform_position_test.png, id=363, 422.32782pt x 316.18124pt>
 File: Figures/random_uniform_position_test.png Graphic file (type png)
 
 <use Figures/random_uniform_position_test.png>
 Package pdftex.def Info: Figures/random_uniform_position_test.png used on input
  line 155.
-(pdftex.def)             Requested size: 322.65309pt x 241.56425pt.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
+line 158.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Computing
 Energy.tex [12 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Fig
-ures/Cross_sectional_area.png>] [13 <C:/Users/Birgitte/Documents/GitHub/Project
-5/Report_project5/Figures/random_uniform_position_test.png (PNG copy)>])
+ures/random_uniform_position_test.png (PNG copy)> <C:/Users/Birgitte/Documents/
+GitHub/Project5/Report_project5/Figures/Cross_sectional_area.png>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Results.t
-ex [14])
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/stability
-2bodysystem.tex [15
+ex [13] [14
 
-]
-<Figures/Test_2body_system_earth.png, id=416, 422.32782pt x 316.18124pt>
+])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/stability
+2bodysystem.tex [15]
+<Figures/Test_2body_system_earth.png, id=408, 422.32782pt x 316.18124pt>
 File: Figures/Test_2body_system_earth.png Graphic file (type png)
 
 <use Figures/Test_2body_system_earth.png>
@@ -1819,7 +1818,7 @@ Package pdftex.def Info: Figures/Test_2body_system_earth.png used on input line
  35.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/Test_2body_system_earth_sun.png, id=417, 422.32782pt x 316.18124pt>
+<Figures/Test_2body_system_earth_sun.png, id=409, 422.32782pt x 316.18124pt>
 File: Figures/Test_2body_system_earth_sun.png Graphic file (type png)
 
 <use Figures/Test_2body_system_earth_sun.png>
@@ -1827,7 +1826,7 @@ Package pdftex.def Info: Figures/Test_2body_system_earth_sun.png used on input
 line 39.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/test_distance_time_VV.png, id=419, 422.32782pt x 316.18124pt>
+<Figures/test_distance_time_VV.png, id=411, 422.32782pt x 316.18124pt>
 File: Figures/test_distance_time_VV.png Graphic file (type png)
 
 <use Figures/test_distance_time_VV.png>
@@ -1835,7 +1834,7 @@ Package pdftex.def Info: Figures/test_distance_time_VV.png used on input line 5
 5.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/test_distance_time_RK4.png, id=420, 422.32782pt x 316.18124pt>
+<Figures/test_distance_time_RK4.png, id=412, 422.32782pt x 316.18124pt>
 File: Figures/test_distance_time_RK4.png Graphic file (type png)
 
 <use Figures/test_distance_time_RK4.png>
@@ -1850,76 +1849,76 @@ ime_VV.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Report_proj
 ect5/Figures/test_distance_time_RK4.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/SunEarthM
 arsTest.tex
-<Figures/sun_earth_mars_test_RK4.png, id=438, 419.76825pt x 313.77225pt>
+<Figures/sun_earth_mars_test_RK4.png, id=432, 419.76825pt x 313.77225pt>
 File: Figures/sun_earth_mars_test_RK4.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_RK4.png>
 Package pdftex.def Info: Figures/sun_earth_mars_test_RK4.png used on input line
- 30.
+ 32.
 (pdftex.def)             Requested size: 230.4675pt x 172.26884pt.
 
-<Figures/sun_earth_mars_test_VV.png, id=439, 418.56375pt x 314.3745pt>
+<Figures/sun_earth_mars_test_VV.png, id=433, 418.56375pt x 314.3745pt>
 File: Figures/sun_earth_mars_test_VV.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_VV.png>
 Package pdftex.def Info: Figures/sun_earth_mars_test_VV.png used on input line 
-34.
+36.
 (pdftex.def)             Requested size: 230.4675pt x 173.09837pt.
  [18])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/TimeStepL
 engthNbody.tex [19 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5
 /Figures/sun_earth_mars_test_RK4.png> <C:/Users/Birgitte/Documents/GitHub/Proje
 ct5/Report_project5/Figures/sun_earth_mars_test_VV.png>]
-<Figures/graphs_VV/pos1_VV.png, id=464, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos1_VV.png, id=460, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos1_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos1_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos1_VV.png used on input line 23.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos2_VV.png, id=465, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos2_VV.png, id=461, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos2_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos2_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos2_VV.png used on input line 27.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos3_VV.png, id=466, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos3_VV.png, id=462, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos3_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos3_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos3_VV.png used on input line 31.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos5_VV.png, id=467, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos5_VV.png, id=463, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos5_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos5_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos5_VV.png used on input line 35.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos6.png, id=472, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos6.png, id=468, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos6.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos6.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos6.png used on input line 56.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos5.png, id=473, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos5.png, id=469, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos5.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos5.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos5.png used on input line 60.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos4.png, id=474, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos4.png, id=470, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos4.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos4.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos4.png used on input line 64.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos9.png, id=475, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos9.png, id=471, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos9.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos9.png>
@@ -1946,7 +1945,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Figures/stability/RK4_stability_1t.png, id=494, 422.32782pt x 316.18124pt>
+<Figures/stability/RK4_stability_1t.png, id=489, 422.32782pt x 316.18124pt>
 File: Figures/stability/RK4_stability_1t.png Graphic file (type png)
 
 <use Figures/stability/RK4_stability_1t.png>
@@ -1954,7 +1953,7 @@ Package pdftex.def Info: Figures/stability/RK4_stability_1t.png used on input l
 ine 11.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/stability/RK4_stability_4t_2_zoom.png, id=495, 422.32782pt x 316.18124
+<Figures/stability/RK4_stability_4t_2_zoom.png, id=490, 422.32782pt x 316.18124
 pt>
 File: Figures/stability/RK4_stability_4t_2_zoom.png Graphic file (type png)
  <use Figures/stability/RK4_stability_4t_2_zoom.png>
@@ -1962,7 +1961,7 @@ Package pdftex.def Info: Figures/stability/RK4_stability_4t_2_zoom.png used on
 input line 15.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
  [22]
-<Figures/Stability_cluster_extend_time_dependence.png, id=505, 422.32782pt x 31
+<Figures/Stability_cluster_extend_time_dependence.png, id=499, 422.32782pt x 31
 6.18124pt>
 File: Figures/Stability_cluster_extend_time_dependence.png Graphic file (type p
 ng)
@@ -2008,7 +2007,7 @@ t5/Report_project5/Figures/stability/RK4_stability_4t_2_zoom.png (PNG copy)> <C
 uster_extend_time_dependence.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Distribut
 ionPotKinEnBound.tex
-<Figures/Histograms_including_epsilon/N_70_e_n3_kin.png, id=523, 422.32782pt x 
+<Figures/Histograms_including_epsilon/N_70_e_n3_kin.png, id=516, 422.32782pt x 
 315.42844pt>
 File: Figures/Histograms_including_epsilon/N_70_e_n3_kin.png Graphic file (type
  png)
@@ -2017,7 +2016,7 @@ Package pdftex.def Info: Figures/Histograms_including_epsilon/N_70_e_n3_kin.png
  used on input line 20.
 (pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
 
-<Figures/Histograms_including_epsilon/N_70_e_n3_pot.png, id=524, 422.32782pt x 
+<Figures/Histograms_including_epsilon/N_70_e_n3_pot.png, id=517, 422.32782pt x 
 315.42844pt>
 File: Figures/Histograms_including_epsilon/N_70_e_n3_pot.png Graphic file (type
  png)
@@ -2026,16 +2025,39 @@ Package pdftex.def Info: Figures/Histograms_including_epsilon/N_70_e_n3_pot.png
  used on input line 24.
 (pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
 
-[24])
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
-n.tex [25 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/
-Histograms_including_epsilon/N_70_e_n3_kin.png (PNG copy)> <C:/Users/Birgitte/D
-ocuments/GitHub/Project5/Report_project5/Figures/Histograms_including_epsilon/N
-_70_e_n3_pot.png (PNG copy)>] [26
+[24] <Figures/epsilon_frac.png, id=530, 422.32782pt x 315.42844pt>
+File: Figures/epsilon_frac.png Graphic file (type png)
 
-])
+<use Figures/epsilon_frac.png>
+Package pdftex.def Info: Figures/epsilon_frac.png used on input line 72.
+(pdftex.def)             Requested size: 276.5638pt x 206.56622pt.
+ [25 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Histo
+grams_including_epsilon/N_70_e_n3_kin.png (PNG copy)> <C:/Users/Birgitte/Docume
+nts/GitHub/Project5/Report_project5/Figures/Histograms_including_epsilon/N_70_e
+_n3_pot.png (PNG copy)>]
+<Figures/epsilon7_kin.png, id=543, 422.32782pt x 315.42844pt>
+File: Figures/epsilon7_kin.png Graphic file (type png)
+
+<use Figures/epsilon7_kin.png>
+Package pdftex.def Info: Figures/epsilon7_kin.png used on input line 84.
+(pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
+
+<Figures/epsilon7_pot.png, id=544, 422.32782pt x 315.42844pt>
+File: Figures/epsilon7_pot.png Graphic file (type png)
+
+<use Figures/epsilon7_pot.png>
+Package pdftex.def Info: Figures/epsilon7_pot.png used on input line 88.
+(pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
+)
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
+n.tex [26 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/
+epsilon_frac.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Repor
+t_project5/Figures/epsilon7_kin.png (PNG copy)> <C:/Users/Birgitte/Documents/Gi
+tHub/Project5/Report_project5/Figures/epsilon7_pot.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
-[27] [28
+[27
+
+] [28
 
 ]
 bibitemlist
@@ -2059,7 +2081,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 122E0CC4A03D608812D98719E34BFFF1;1668.
+(rerunfilecheck)             Checksum: 556B0F8FAC56AEBE1AD0453CC50BAB1D;1668.
 
 LaTeX Warning: There were undefined references.
 
@@ -2069,14 +2091,14 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 17511 strings out of 493921
- 265144 string characters out of 3147273
- 519477 words of memory out of 3000000
- 20123 multiletter control sequences out of 15000+200000
- 88685 words of font info for 194 fonts, out of 3000000 for 9000
+ 17529 strings out of 493921
+ 265638 string characters out of 3147273
+ 519648 words of memory out of 3000000
+ 20139 multiletter control sequences out of 15000+200000
+ 89239 words of font info for 196 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  55i,19n,92p,1577b,1741s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
@@ -2091,9 +2113,9 @@ Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (37 pages, 500842 bytes).
+Output written on Report.pdf (37 pages, 518772 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 243 named destinations out of 1000 (max. 500000)
- 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 665 PDF objects out of 1000 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

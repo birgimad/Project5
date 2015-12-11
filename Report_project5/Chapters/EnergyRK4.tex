@@ -4,16 +4,11 @@
 
 To study the energy inside the system, only the particles that have not escaped are of interest. To find out which stars are still in the system, the kinetic energy K of the particle has to be smaller than the potential energy to remain bound to the system. These are the bound particles.   
 \begin{align}
-  K \leqslant -V
+  E_{kin} \leqslant -E_{pot}
 \end{align}
 Giving a positive energy total if the kinetic energy is greater than the potential, and thus allowing the star to escape.
 
 In \tabref{tab:NpRK4} the initial energies, the number of bound particles, the final energies of the bound particles and, energy loss in percentage is shown. Her we can see how much energy is lost and if there is a connection between the number of particles in the system to begin with. There is an energy loss in the system, this i due to the ejected particles taking some energy away from the system. Yielding that the Energy is not conserved in the system. 
-
-From the energy loss there is no apparent connection between number of particles and how much energy the system looses in percentage. But as the number of particles is not larger than 100 and the system has not been tested several times for these values, it's not possible to make a conclusion if the energy loss is dependent on the number of particles. 
-
-
-
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|c|c|}
@@ -26,9 +21,10 @@ N = & Number of bound particles& $E_{initial}$ & $E_{Bound}$ & deviation \% \\
 100 & 82 & -592577 & -807914 & -0.3634 \\
 \hline
 \end{tabular}
-\caption{The total initial energy and the final total energy of the bound particles, for different number of initial particles. For a time $\tau = 1.0$ }
+\caption{The total initial energy and the total final energy of the bound particles and the percentage energy loss after a time period of a time period $1\tau_{crunch}$, for different numbers of initial particles. }
 \label{tab:NpRK4}
 \end{table}
+From the energy loss there is no apparent connection between number of particles and how much energy the system looses in percentage. But as the number of particles is not larger than 100 and the system has not been tested several times for these values, it's not possible to make a conclusion if the energy loss is dependent on the number of particles. 
 
 %\begin{table}[H]
 %\centering
@@ -79,5 +75,3 @@ N = & Number of bound particles& $E_{initial}$ & $E_{Bound}$ & deviation \% \\
 %      }
 %      \label{EnergyRK4differenttime}
 %\end{table}
-
-\fxnote{this looks like we have not reached equilibrium at this point!}
