@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  11 DEC 2015 20:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  11 DEC 2015 20:49
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1244,9 +1244,6 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 25--38
  []
 
 
-LaTeX Warning: Reference `LastPage' on page iii undefined on input line 83.
-
-
 Overfull \hbox (132.12012pt too wide) in paragraph at lines 40--97
 [][] 
  []
@@ -1299,7 +1296,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
  [3])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Newton2bo
 dy3D.tex
-<Figures/2bodyproblem_coordinatesystems.png, id=174, 542.025pt x 250.9375pt>
+<Figures/2bodyproblem_coordinatesystems.png, id=175, 542.025pt x 250.9375pt>
 File: Figures/2bodyproblem_coordinatesystems.png Graphic file (type png)
 
 <use Figures/2bodyproblem_coordinatesystems.png>
@@ -2035,14 +2032,14 @@ Package pdftex.def Info: Figures/epsilon_frac.png used on input line 72.
 grams_including_epsilon/N_70_e_n3_kin.png (PNG copy)> <C:/Users/Birgitte/Docume
 nts/GitHub/Project5/Report_project5/Figures/Histograms_including_epsilon/N_70_e
 _n3_pot.png (PNG copy)>]
-<Figures/epsilon7_kin.png, id=548, 422.32782pt x 315.42844pt>
+<Figures/epsilon7_kin.png, id=546, 422.32782pt x 315.42844pt>
 File: Figures/epsilon7_kin.png Graphic file (type png)
 
 <use Figures/epsilon7_kin.png>
 Package pdftex.def Info: Figures/epsilon7_kin.png used on input line 84.
 (pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
 
-<Figures/epsilon7_pot.png, id=549, 422.32782pt x 315.42844pt>
+<Figures/epsilon7_pot.png, id=547, 422.32782pt x 315.42844pt>
 File: Figures/epsilon7_pot.png Graphic file (type png)
 
 <use Figures/epsilon7_pot.png>
@@ -2054,25 +2051,25 @@ tRadDist.tex [26 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/F
 igures/epsilon_frac.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project
 5/Report_project5/Figures/epsilon7_kin.png (PNG copy)> <C:/Users/Birgitte/Docum
 ents/GitHub/Project5/Report_project5/Figures/epsilon7_pot.png (PNG copy)>]
-<Figures/N30.png, id=559, 422.32782pt x 316.18124pt>
+<Figures/N30.png, id=557, 422.32782pt x 316.18124pt>
 File: Figures/N30.png Graphic file (type png)
  <use Figures/N30.png>
 Package pdftex.def Info: Figures/N30.png used on input line 32.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/N50.png, id=560, 422.32782pt x 316.18124pt>
+<Figures/N50.png, id=558, 422.32782pt x 316.18124pt>
 File: Figures/N50.png Graphic file (type png)
  <use Figures/N50.png>
 Package pdftex.def Info: Figures/N50.png used on input line 36.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/N100.png, id=561, 422.32782pt x 316.18124pt>
+<Figures/N100.png, id=559, 422.32782pt x 316.18124pt>
 File: Figures/N100.png Graphic file (type png)
  <use Figures/N100.png>
 Package pdftex.def Info: Figures/N100.png used on input line 40.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/N200.png, id=562, 422.32782pt x 316.18124pt>
+<Figures/N200.png, id=560, 422.32782pt x 316.18124pt>
 File: Figures/N200.png Graphic file (type png)
  <use Figures/N200.png>
 Package pdftex.def Info: Figures/N200.png used on input line 44.
@@ -2114,19 +2111,16 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 3B69634E81CC5A662CA672151FF32BC2;1776.
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 17567 strings out of 493921
- 266493 string characters out of 3147273
+ 17563 strings out of 493921
+ 266460 string characters out of 3147273
  520700 words of memory out of 3000000
- 20163 multiletter control sequences out of 15000+200000
- 89239 words of font info for 196 fonts, out of 3000000 for 9000
+ 20162 multiletter control sequences out of 15000+200000
+ 87083 words of font info for 194 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  55i,19n,92p,1577b,1741s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
@@ -2136,17 +2130,16 @@ st, replaced by a fixed one
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/hoekwater/rsfs/rsfs10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (39 pages, 546410 bytes).
+blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
+mbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/hoekwater/rsfs/rsfs10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (39 pages, 542172 bytes).
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
- 247 named destinations out of 1000 (max. 500000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 246 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

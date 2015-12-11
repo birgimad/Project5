@@ -1,2 +1,18 @@
 \chapter{Conclusion}
 
+After comparing the two methods the fourth order Runge-Kutta and the Velocity-Verlet the Velocity Verlet gives more stable results with larger time steps for systems consisting of few bodies, like the Sun-Earth-system, as seen in \figref{fig:SunEarthDistanceAfter100yr}. 
+Furthermore, the computational time for the Velocity-Verlet method seems to be shorter for moving one time step forward then with the fourth order Runge-Kutta method. 
+Both methods give good results on a two body system, but when increasing the number of bodies in the system, the fourth order Runge-Kutta method provides more stable results. 
+This is shown by a greater stability in the final position of the bodies after $10^7$ years, as seen from the histograms in 
+\figref{fig:histograms_VV_diff_time_step} and \ref{fig:histograms_RK4_diff_time_step}.
+Therefore, the further analysis of the time evolution of a $N$ particle star cluster is carried out with the fourth order Runge-Kutta method.
+The analysis is based on particles with Gaussian distributed masses, zero initial velocity and a uniform distribution in density within a sphere that initially make of the star cluster.
+It is found that as time goes by, the Newtonian force between the particles that are initially at rest will accelerate the particles. 
+Some particles will move towards the center, and hence decrease their potential energy, whilst other particles will gain enough kinetic energy to escape the cluster, and reducing the final energy of the cluster.
+
+By running for different time steps the system is found to reach an equilibrium after approximately $2\tau_{crunch}$, and when including the parameter $\epsilon$ to the force calculations, the agreement with the virial theorem for the bound particles at equilibrium was found to be reasonable.
+
+The final radial distribution of the particles that are bound to the cluster after reaching equilibrium is found to be great close to the cluster center and decreasing when moving towards the initial radius of the star cluster. 
+This behaviour is en agreement with the appearance of a simplified expression given by \matref{eq:radialDens} for the radial density is this kind of cold collapse.  
+
+  
