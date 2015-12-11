@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  10 DEC 2015 17:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  10 DEC 2015 22:43
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1432,72 +1432,72 @@ File: Figures/sun_earth_mars_test_VV.png Graphic file (type png)
 Package pdftex.def Info: Figures/sun_earth_mars_test_VV.png used on input line 
 34.
 (pdftex.def)             Requested size: 230.4675pt x 173.09837pt.
-)
+ [18])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/TimeStepL
-engthNbody.tex [18]
-<Figures/graphs_VV/pos1_VV.png, id=432, 422.32782pt x 316.18124pt>
+engthNbody.tex [19 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5
+/Figures/sun_earth_mars_test_RK4.png> <C:/Users/Birgitte/Documents/GitHub/Proje
+ct5/Report_project5/Figures/sun_earth_mars_test_VV.png>]
+<Figures/graphs_VV/pos1_VV.png, id=441, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos1_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos1_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos1_VV.png used on input line 23.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos2_VV.png, id=433, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos2_VV.png, id=442, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos2_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos2_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos2_VV.png used on input line 27.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos3_VV.png, id=434, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos3_VV.png, id=443, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos3_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos3_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos3_VV.png used on input line 31.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos5_VV.png, id=435, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos5_VV.png, id=444, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos5_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos5_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos5_VV.png used on input line 35.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
- [19 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/sun_e
-arth_mars_test_RK4.png> <C:/Users/Birgitte/Documents/GitHub/Project5/Report_pro
-ject5/Figures/sun_earth_mars_test_VV.png>]
-<Figures/graphs_RK4/pos6.png, id=451, 422.32782pt x 316.18124pt>
+ [20]
+<Figures/graphs_RK4/pos6.png, id=457, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos6.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos6.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos6.png used on input line 56.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos5.png, id=452, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos5.png, id=458, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos5.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos5.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos5.png used on input line 60.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos4.png, id=453, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos4.png, id=459, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos4.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos4.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos4.png used on input line 64.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos9.png, id=454, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos9.png, id=460, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos9.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos9.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos9.png used on input line 68.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
- [20 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/graph
+ [21 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/graph
 s_VV/pos1_VV.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Repor
 t_project5/Figures/graphs_VV/pos2_VV.png (PNG copy)> <C:/Users/Birgitte/Documen
 ts/GitHub/Project5/Report_project5/Figures/graphs_VV/pos3_VV.png (PNG copy)> <C
 :/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/graphs_VV/po
-s5_VV.png (PNG copy)>] [21 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_
+s5_VV.png (PNG copy)>] [22 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_
 project5/Figures/graphs_RK4/pos6.png (PNG copy)> <C:/Users/Birgitte/Documents/G
 itHub/Project5/Report_project5/Figures/graphs_RK4/pos5.png (PNG copy)> <C:/User
 s/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/graphs_RK4/pos4.pn
@@ -1513,7 +1513,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Figures/stability/RK4_stability_1t.png, id=470, 422.32782pt x 316.18124pt>
+<Figures/stability/RK4_stability_1t.png, id=476, 422.32782pt x 316.18124pt>
 File: Figures/stability/RK4_stability_1t.png Graphic file (type png)
 
 <use Figures/stability/RK4_stability_1t.png>
@@ -1521,17 +1521,17 @@ Package pdftex.def Info: Figures/stability/RK4_stability_1t.png used on input l
 ine 11.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/stability/RK4_stability_4t_2_zoom.png, id=471, 422.32782pt x 316.18124
+<Figures/stability/RK4_stability_4t_2_zoom.png, id=477, 422.32782pt x 316.18124
 pt>
 File: Figures/stability/RK4_stability_4t_2_zoom.png Graphic file (type png)
  <use Figures/stability/RK4_stability_4t_2_zoom.png>
 Package pdftex.def Info: Figures/stability/RK4_stability_4t_2_zoom.png used on 
 input line 15.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
- [22 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/stabi
+ [23 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/stabi
 lity/RK4_stability_1t.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Proje
 ct5/Report_project5/Figures/stability/RK4_stability_4t_2_zoom.png (PNG copy)>]
-<Figures/Stability_cluster_extend_time_dependence.png, id=480, 422.32782pt x 31
+<Figures/Stability_cluster_extend_time_dependence.png, id=487, 422.32782pt x 31
 6.18124pt>
 File: Figures/Stability_cluster_extend_time_dependence.png Graphic file (type p
 ng)
@@ -1560,7 +1560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--61
 
  []
 
-[23 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Stabil
+[24 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/Stabil
 ity_cluster_extend_time_dependence.png (PNG copy)>]
 \tf@toc=\write6
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
@@ -1581,10 +1581,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) ) 
 Here is how much of TeX's memory you used:
- 17442 strings out of 493921
- 262647 string characters out of 3147273
- 515043 words of memory out of 3000000
- 20083 multiletter control sequences out of 15000+200000
+ 17445 strings out of 493921
+ 262712 string characters out of 3147273
+ 515547 words of memory out of 3000000
+ 20084 multiletter control sequences out of 15000+200000
  91907 words of font info for 201 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  55i,19n,92p,1621b,1731s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1602,9 +1602,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (31 pages, 452078 bytes).
+Output written on Report.pdf (32 pages, 454484 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
- 226 named destinations out of 1000 (max. 500000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 228 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

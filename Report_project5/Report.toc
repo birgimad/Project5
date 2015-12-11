@@ -14,4 +14,4 @@
 \contentsline {section}{\numberline {3.1}Stability of the 2-body System using Runge-Kutta and Velocity-Verlet}{15}{section.3.1}
 \contentsline {section}{\numberline {3.2}Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}{18}{section.3.2}
 \contentsline {section}{\numberline {3.3}Time Step Length in the N-body Problem}{19}{section.3.3}
-\contentsline {section}{\numberline {3.4}Stability and Equilibrium of $N=100$ System}{22}{section.3.4}
+\contentsline {section}{\numberline {3.4}Stability and Equilibrium of $N=100$ System}{23}{section.3.4}

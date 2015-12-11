@@ -39,3 +39,29 @@ The masses, initial positions, and initial velocities of the three objects are g
 }
 \label{fig:SunEarthMarsTest}
 \end{figure}
+
+Calculating the initial and final energy of the Sun-Earth-Mars system according to the source code presented en \secref{sec:ComputingEnergy}, gives the following table for different time periods with step length of 1 day.
+
+\begin{table}[H]
+\centering
+\caption{The final energy after different time periods computed by both the first order Runge-Kutta method and the Velocity-Verlet method for the Sun-Earth-Mars-like system with initial energy of $2.37\times 10^{-9} \text{M}_{\odot} \text{AU}^2 /\text{days}^2$ .
+}
+\begin{center}
+\begin{tabular}{ | c | c | c |  }
+  \hline	
+  Time period (years) & Final energy (RK4) & Final energy (VV)
+  \\ \hline		
+  1  & $2.37\times 10^{-9}$ & $2.37\times 10^{-9}$
+  \\ \hline
+  10  & $2.47\times 10^{-9}$ & $2.47\times 10^{-9}$
+  \\ \hline
+  100  & $2.50\times 10^{-9}$ & $2.50\times 10^{-9}$
+  \\ \hline
+  1000 & $2.38\times 10^{-9}$  & $2.38\times 10^{-9}$ 
+  \\ \hline
+\end{tabular}
+\end{center}
+\label{tab:SunEarthMarsTest_energy_conservation}
+\end{table}
+It seems alarming that the final energy if greater than the initial energy for both the fourth order Runge-Kutta method and the Velocity-Verlet method. 
+However, with the precision of the constants, e.g. the gravitational constant $G=2.96\times 10^{-4} \text{AU}^3 / \text{days}^2 \cdot \text{M}_{\odot}$, and the time steps, it is conclusive to say that the programmed code for this N-body problem  
