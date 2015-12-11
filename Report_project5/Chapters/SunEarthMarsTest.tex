@@ -1,6 +1,8 @@
 \section{Testing Runge-Kutta and Velocity-Verlet for Sun-Earth-Mars System}
 \label{sec:SunEarthMarsTest}
 
+Before using the codes to calculate the movement of the stars in a star cluster, the codes are tested on a known system like the Sun-Earth-Mars system. This is because these bodies move in a very predictable and stable fashion. So when increasing the time the orbits should remain almost equal to the initial orbit, and almost circular. As it is  possible to see in \figref{fig:SunEarthMarsTest} that it's the case. Where the mass, initial position and, velocity is set as given in \tabref{tab:SunEarthMarsTest}. 
+
 \begin{table}[H]
 \centering
 \caption{Mass, initial position and initial velocity of Sun, Earth and Mars when running the Runge-Kutta 4 algorithm for this three-body problem.
@@ -40,7 +42,7 @@ The masses, initial positions, and initial velocities of the three objects are g
 \label{fig:SunEarthMarsTest}
 \end{figure}
 
-Calculating the initial and final energy of the Sun-Earth-Mars system according to the source code presented en \secref{sec:ComputingEnergy}, gives the following table for different time periods with step length of 1 day.
+Calculating the initial and final energy of the Sun-Earth-Mars system according to the source code presented in \secref{sec:ComputingEnergy}, gives the \tabref{tab:SunEarthMarsTest_energy_conservation} for different time periods with step length of 1 day.
 
 \begin{table}[H]
 \centering
@@ -51,17 +53,18 @@ Calculating the initial and final energy of the Sun-Earth-Mars system according 
   \hline	
   Time period (years) & Final energy (RK4) & Final energy (VV)
   \\ \hline		
-  1  & $2.37\times 10^{-9}$ & $2.37\times 10^{-9}$
+  1  & $-1.44\times 10^{-9}$ & $-1.44\times 10^{-9}$
   \\ \hline
-  10  & $2.47\times 10^{-9}$ & $2.47\times 10^{-9}$
+  10  & $-1.47\times 10^{-9}$ & $-1.47\times 10^{-9}$
   \\ \hline
-  100  & $2.50\times 10^{-9}$ & $2.50\times 10^{-9}$
+  100  & $-1.48\times 10^{-9}$ & $-1.48\times 10^{-9}$
   \\ \hline
-  1000 & $2.38\times 10^{-9}$  & $2.38\times 10^{-9}$ 
+  1000 & $-1.44\times 10^{-9}$  & $-1.44\times 10^{-9}$ 
   \\ \hline
 \end{tabular}
 \end{center}
 \label{tab:SunEarthMarsTest_energy_conservation}
 \end{table}
-It seems alarming that the final energy if greater than the initial energy for both the fourth order Runge-Kutta method and the Velocity-Verlet method. 
-However, with the precision of the constants, e.g. the gravitational constant $G=2.96\times 10^{-4} \text{AU}^3 / \text{days}^2 \cdot \text{M}_{\odot}$, and the time steps, it is conclusive to say that the programmed code for this N-body problem  
+
+
+From the results in \tabref{tab:SunEarthMarsTest_energy_conservation} the energy is not changing much over time, and with the precision of the constants, e.g. the gravitational constant $G=2.96\times 10^{-4} \text{AU}^3 / \text{days}^2 \cdot \text{M}_{\odot}$, and the time steps, this gives a good picture of the evolution of the energy. And it gives the impression that the methods used are giving a good estimates to the real movement of the particles. And since it is working for this model with three particles it is possible to assume that it will work for N bodies as well. 
