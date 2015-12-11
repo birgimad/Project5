@@ -18,5 +18,6 @@
 \contentsline {section}{\numberline {3.4}Stability and Equilibrium of $N=100$ System}{22}{section.3.4}
 \contentsline {section}{\numberline {3.5}Energy of the $N$-body Runge-Kutta Method}{23}{section.3.5}
 \contentsline {section}{\numberline {3.6}Distribution of Potential and Kinetic Energy of Bound Particles after a Finite Time}{24}{section.3.6}
-\contentsline {chapter}{\chapternumberline {4}Conclusion}{27}{chapter.4}
-\contentsline {chapter}{Bibliography}{29}{section*.25}
+\contentsline {section}{\numberline {3.7}The Dependence of Number of Particles on Radial Distribution}{27}{section.3.7}
+\contentsline {chapter}{\chapternumberline {4}Conclusion}{29}{chapter.4}
+\contentsline {chapter}{Bibliography}{31}{section*.27}

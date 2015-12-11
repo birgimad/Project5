@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  11 DEC 2015 18:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  11 DEC 2015 20:25
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.tex
@@ -1204,7 +1204,7 @@ Package caption Info: End \AtBeginDocument code.
 Frontpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- <Figures/UiO_Seal_A_ENG.png, id=87, 566.5968pt x 95.8782pt>
+ <Figures/UiO_Seal_A_ENG.png, id=91, 566.5968pt x 95.8782pt>
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
 
 <use Figures/UiO_Seal_A_ENG.png>
@@ -1299,7 +1299,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
  [3])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Newton2bo
 dy3D.tex
-<Figures/2bodyproblem_coordinatesystems.png, id=169, 542.025pt x 250.9375pt>
+<Figures/2bodyproblem_coordinatesystems.png, id=174, 542.025pt x 250.9375pt>
 File: Figures/2bodyproblem_coordinatesystems.png Graphic file (type png)
 
 <use Figures/2bodyproblem_coordinatesystems.png>
@@ -1321,7 +1321,7 @@ Missing character: There is no ™ in font ptmr7t!
 .tex [7])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/argumentf
 orepsilon.tex
-<Figures/argument_for_epsilon.png, id=262, 501.875pt x 271.0125pt>
+<Figures/argument_for_epsilon.png, id=267, 501.875pt x 271.0125pt>
 File: Figures/argument_for_epsilon.png Graphic file (type png)
 
 <use Figures/argument_for_epsilon.png>
@@ -1338,7 +1338,7 @@ cts as a smoothing function, giving a
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Generatin
 gPosMassVel.tex [8 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5
 /Figures/argument_for_epsilon.png>]
-<Figures/Gaussian_mass_generation_ill.png, id=291, 291.0875pt x 250.9375pt>
+<Figures/Gaussian_mass_generation_ill.png, id=296, 291.0875pt x 250.9375pt>
 File: Figures/Gaussian_mass_generation_ill.png Graphic file (type png)
 
 <use Figures/Gaussian_mass_generation_ill.png>
@@ -1764,7 +1764,7 @@ put line 73.
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 73.
 
-<Figures/random_mass_test.png, id=306, 422.32782pt x 316.18124pt>
+<Figures/random_mass_test.png, id=311, 422.32782pt x 316.18124pt>
 File: Figures/random_mass_test.png Graphic file (type png)
 
 <use Figures/random_mass_test.png>
@@ -1776,7 +1776,7 @@ m_mass_test.png (PNG copy)>]
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 132.
 
-<Figures/Cross_sectional_area.png, id=330, 371.3875pt x 281.05pt>
+<Figures/Cross_sectional_area.png, id=335, 371.3875pt x 281.05pt>
 File: Figures/Cross_sectional_area.png Graphic file (type png)
 
 <use Figures/Cross_sectional_area.png>
@@ -1784,7 +1784,7 @@ Package pdftex.def Info: Figures/Cross_sectional_area.png used on input line 13
 4.
 (pdftex.def)             Requested size: 138.28189pt x 104.6473pt.
  [11]
-<Figures/random_uniform_position_test.png, id=363, 422.32782pt x 316.18124pt>
+<Figures/random_uniform_position_test.png, id=368, 422.32782pt x 316.18124pt>
 File: Figures/random_uniform_position_test.png Graphic file (type png)
 
 <use Figures/random_uniform_position_test.png>
@@ -1810,7 +1810,7 @@ ex [13] [14
 ])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/stability
 2bodysystem.tex [15]
-<Figures/Test_2body_system_earth.png, id=408, 422.32782pt x 316.18124pt>
+<Figures/Test_2body_system_earth.png, id=413, 422.32782pt x 316.18124pt>
 File: Figures/Test_2body_system_earth.png Graphic file (type png)
 
 <use Figures/Test_2body_system_earth.png>
@@ -1818,7 +1818,7 @@ Package pdftex.def Info: Figures/Test_2body_system_earth.png used on input line
  35.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/Test_2body_system_earth_sun.png, id=409, 422.32782pt x 316.18124pt>
+<Figures/Test_2body_system_earth_sun.png, id=414, 422.32782pt x 316.18124pt>
 File: Figures/Test_2body_system_earth_sun.png Graphic file (type png)
 
 <use Figures/Test_2body_system_earth_sun.png>
@@ -1826,7 +1826,7 @@ Package pdftex.def Info: Figures/Test_2body_system_earth_sun.png used on input
 line 39.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/test_distance_time_VV.png, id=411, 422.32782pt x 316.18124pt>
+<Figures/test_distance_time_VV.png, id=416, 422.32782pt x 316.18124pt>
 File: Figures/test_distance_time_VV.png Graphic file (type png)
 
 <use Figures/test_distance_time_VV.png>
@@ -1834,7 +1834,7 @@ Package pdftex.def Info: Figures/test_distance_time_VV.png used on input line 5
 5.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/test_distance_time_RK4.png, id=412, 422.32782pt x 316.18124pt>
+<Figures/test_distance_time_RK4.png, id=417, 422.32782pt x 316.18124pt>
 File: Figures/test_distance_time_RK4.png Graphic file (type png)
 
 <use Figures/test_distance_time_RK4.png>
@@ -1849,7 +1849,7 @@ ime_VV.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Report_proj
 ect5/Figures/test_distance_time_RK4.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/SunEarthM
 arsTest.tex
-<Figures/sun_earth_mars_test_RK4.png, id=432, 419.76825pt x 313.77225pt>
+<Figures/sun_earth_mars_test_RK4.png, id=437, 419.76825pt x 313.77225pt>
 File: Figures/sun_earth_mars_test_RK4.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_RK4.png>
@@ -1857,7 +1857,7 @@ Package pdftex.def Info: Figures/sun_earth_mars_test_RK4.png used on input line
  32.
 (pdftex.def)             Requested size: 230.4675pt x 172.26884pt.
 
-<Figures/sun_earth_mars_test_VV.png, id=433, 418.56375pt x 314.3745pt>
+<Figures/sun_earth_mars_test_VV.png, id=438, 418.56375pt x 314.3745pt>
 File: Figures/sun_earth_mars_test_VV.png Graphic file (type png)
 
 <use Figures/sun_earth_mars_test_VV.png>
@@ -1869,56 +1869,56 @@ Package pdftex.def Info: Figures/sun_earth_mars_test_VV.png used on input line
 engthNbody.tex [19 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5
 /Figures/sun_earth_mars_test_RK4.png> <C:/Users/Birgitte/Documents/GitHub/Proje
 ct5/Report_project5/Figures/sun_earth_mars_test_VV.png>]
-<Figures/graphs_VV/pos1_VV.png, id=460, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos1_VV.png, id=465, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos1_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos1_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos1_VV.png used on input line 23.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos2_VV.png, id=461, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos2_VV.png, id=466, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos2_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos2_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos2_VV.png used on input line 27.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos3_VV.png, id=462, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos3_VV.png, id=467, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos3_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos3_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos3_VV.png used on input line 31.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_VV/pos5_VV.png, id=463, 422.32782pt x 316.18124pt>
+<Figures/graphs_VV/pos5_VV.png, id=468, 422.32782pt x 316.18124pt>
 File: Figures/graphs_VV/pos5_VV.png Graphic file (type png)
 
 <use Figures/graphs_VV/pos5_VV.png>
 Package pdftex.def Info: Figures/graphs_VV/pos5_VV.png used on input line 35.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos6.png, id=468, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos6.png, id=473, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos6.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos6.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos6.png used on input line 56.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos5.png, id=469, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos5.png, id=474, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos5.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos5.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos5.png used on input line 60.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos4.png, id=470, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos4.png, id=475, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos4.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos4.png>
 Package pdftex.def Info: Figures/graphs_RK4/pos4.png used on input line 64.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/graphs_RK4/pos9.png, id=471, 422.32782pt x 316.18124pt>
+<Figures/graphs_RK4/pos9.png, id=476, 422.32782pt x 316.18124pt>
 File: Figures/graphs_RK4/pos9.png Graphic file (type png)
 
 <use Figures/graphs_RK4/pos9.png>
@@ -1945,7 +1945,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Figures/stability/RK4_stability_1t.png, id=489, 422.32782pt x 316.18124pt>
+<Figures/stability/RK4_stability_1t.png, id=494, 422.32782pt x 316.18124pt>
 File: Figures/stability/RK4_stability_1t.png Graphic file (type png)
 
 <use Figures/stability/RK4_stability_1t.png>
@@ -1953,7 +1953,7 @@ Package pdftex.def Info: Figures/stability/RK4_stability_1t.png used on input l
 ine 11.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<Figures/stability/RK4_stability_4t_2_zoom.png, id=490, 422.32782pt x 316.18124
+<Figures/stability/RK4_stability_4t_2_zoom.png, id=495, 422.32782pt x 316.18124
 pt>
 File: Figures/stability/RK4_stability_4t_2_zoom.png Graphic file (type png)
  <use Figures/stability/RK4_stability_4t_2_zoom.png>
@@ -1961,7 +1961,7 @@ Package pdftex.def Info: Figures/stability/RK4_stability_4t_2_zoom.png used on
 input line 15.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
  [22]
-<Figures/Stability_cluster_extend_time_dependence.png, id=499, 422.32782pt x 31
+<Figures/Stability_cluster_extend_time_dependence.png, id=504, 422.32782pt x 31
 6.18124pt>
 File: Figures/Stability_cluster_extend_time_dependence.png Graphic file (type p
 ng)
@@ -2007,7 +2007,7 @@ t5/Report_project5/Figures/stability/RK4_stability_4t_2_zoom.png (PNG copy)> <C
 uster_extend_time_dependence.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Distribut
 ionPotKinEnBound.tex
-<Figures/Histograms_including_epsilon/N_70_e_n3_kin.png, id=516, 422.32782pt x 
+<Figures/Histograms_including_epsilon/N_70_e_n3_kin.png, id=521, 422.32782pt x 
 315.42844pt>
 File: Figures/Histograms_including_epsilon/N_70_e_n3_kin.png Graphic file (type
  png)
@@ -2016,7 +2016,7 @@ Package pdftex.def Info: Figures/Histograms_including_epsilon/N_70_e_n3_kin.png
  used on input line 20.
 (pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
 
-<Figures/Histograms_including_epsilon/N_70_e_n3_pot.png, id=517, 422.32782pt x 
+<Figures/Histograms_including_epsilon/N_70_e_n3_pot.png, id=522, 422.32782pt x 
 315.42844pt>
 File: Figures/Histograms_including_epsilon/N_70_e_n3_pot.png Graphic file (type
  png)
@@ -2025,7 +2025,7 @@ Package pdftex.def Info: Figures/Histograms_including_epsilon/N_70_e_n3_pot.png
  used on input line 24.
 (pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
 
-[24] <Figures/epsilon_frac.png, id=530, 422.32782pt x 315.42844pt>
+[24] <Figures/epsilon_frac.png, id=535, 422.32782pt x 315.42844pt>
 File: Figures/epsilon_frac.png Graphic file (type png)
 
 <use Figures/epsilon_frac.png>
@@ -2035,29 +2035,60 @@ Package pdftex.def Info: Figures/epsilon_frac.png used on input line 72.
 grams_including_epsilon/N_70_e_n3_kin.png (PNG copy)> <C:/Users/Birgitte/Docume
 nts/GitHub/Project5/Report_project5/Figures/Histograms_including_epsilon/N_70_e
 _n3_pot.png (PNG copy)>]
-<Figures/epsilon7_kin.png, id=543, 422.32782pt x 315.42844pt>
+<Figures/epsilon7_kin.png, id=548, 422.32782pt x 315.42844pt>
 File: Figures/epsilon7_kin.png Graphic file (type png)
 
 <use Figures/epsilon7_kin.png>
 Package pdftex.def Info: Figures/epsilon7_kin.png used on input line 84.
 (pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
 
-<Figures/epsilon7_pot.png, id=544, 422.32782pt x 315.42844pt>
+<Figures/epsilon7_pot.png, id=549, 422.32782pt x 315.42844pt>
 File: Figures/epsilon7_pot.png Graphic file (type png)
 
 <use Figures/epsilon7_pot.png>
 Package pdftex.def Info: Figures/epsilon7_pot.png used on input line 88.
 (pdftex.def)             Requested size: 230.4675pt x 172.1337pt.
 )
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
-n.tex [26 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/
-epsilon_frac.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Repor
-t_project5/Figures/epsilon7_kin.png (PNG copy)> <C:/Users/Birgitte/Documents/Gi
-tHub/Project5/Report_project5/Figures/epsilon7_pot.png (PNG copy)>])
-(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
-[27
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/NumberPar
+tRadDist.tex [26 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/F
+igures/epsilon_frac.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project
+5/Report_project5/Figures/epsilon7_kin.png (PNG copy)> <C:/Users/Birgitte/Docum
+ents/GitHub/Project5/Report_project5/Figures/epsilon7_pot.png (PNG copy)>]
+<Figures/N30.png, id=559, 422.32782pt x 316.18124pt>
+File: Figures/N30.png Graphic file (type png)
+ <use Figures/N30.png>
+Package pdftex.def Info: Figures/N30.png used on input line 32.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-] [28
+<Figures/N50.png, id=560, 422.32782pt x 316.18124pt>
+File: Figures/N50.png Graphic file (type png)
+ <use Figures/N50.png>
+Package pdftex.def Info: Figures/N50.png used on input line 36.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+
+<Figures/N100.png, id=561, 422.32782pt x 316.18124pt>
+File: Figures/N100.png Graphic file (type png)
+ <use Figures/N100.png>
+Package pdftex.def Info: Figures/N100.png used on input line 40.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+
+<Figures/N200.png, id=562, 422.32782pt x 316.18124pt>
+File: Figures/N200.png Graphic file (type png)
+ <use Figures/N200.png>
+Package pdftex.def Info: Figures/N200.png used on input line 44.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+
+[27 <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figures/N30.pn
+g (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Report_project5/Figu
+res/N50.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5/Report_pro
+ject5/Figures/N100.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project5
+/Report_project5/Figures/N200.png (PNG copy)>])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Chapters/Conclusio
+n.tex [28])
+(C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.bbl
+[29
+
+] [30
 
 ]
 bibitemlist
@@ -2073,28 +2104,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--21
 ysics1 / blob / gh-[]pages / doc /$
  []
 
-) [29]
+) [31]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (C:\Users\Birgitte\Documents\GitHub\Project5\Report_project5\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 556B0F8FAC56AEBE1AD0453CC50BAB1D;1668.
+(rerunfilecheck)             Checksum: 3B69634E81CC5A662CA672151FF32BC2;1776.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 17529 strings out of 493921
- 265638 string characters out of 3147273
- 519648 words of memory out of 3000000
- 20139 multiletter control sequences out of 15000+200000
+ 17567 strings out of 493921
+ 266493 string characters out of 3147273
+ 520700 words of memory out of 3000000
+ 20163 multiletter control sequences out of 15000+200000
  89239 words of font info for 196 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  55i,19n,92p,1577b,1741s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2113,9 +2144,9 @@ Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (37 pages, 518772 bytes).
+Output written on Report.pdf (39 pages, 546410 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 240 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 247 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
