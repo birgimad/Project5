@@ -1,0 +1,62 @@
+\section{Energy of the $N$-body Runge-Kutta Method}
+\label{sec:EnergyRK4}
+
+\fxnote{write here that we take minus solution}
+
+In the table below, the initial energies, final energies and energy losses are shown together with the percentage of kinetic energy of the total final energy for different number of particles $N$ after a time period of $2\tau_{crunch}$. 
+A clear tendency in the energy loss of about $32 \%$ for all considered sizes of systems. 
+Furthermore after the time period of $2\tau_{crunch}$, the kinetic energy constitutes to $40 \% - 50\%$ of the total energy for all the system sizes. 
+This, of course, yields a drastic decrease en the potential energy of the system, since the initial kinetic energy is set to zero. 
+
+
+\begin{table}[H]
+\centering
+    \begin{tabular}{|c|c|c|c|c|}\hline
+      	N & Initial Energy & Final energy & Energy loss (\%) & $E_{kin}$ of $E_{final}$  
+      	\\ \hline
+        10 & 62384 & 39075 & 37.4 & 40.3
+        \\ \hline
+        20 & 107840 & 73086 & 32.2 & 47.6
+        \\ \hline
+        30 & 180199 & 119402 & 33.7 & 49.1
+        \\ \hline
+        40 & 212556 & 146758 & 31.0 & 44.8
+        \\ \hline
+        50 & 276332 & 187268 & 33.2 & 47.6
+        \\ \hline
+        60 & 360979 & 246919 & 31.6 & 46.2
+        \\ \hline
+        70 & 407283 & 275201 & 32.4 & 48.0
+        \\ \hline
+        80 & 446740 & 307724 & 31.1 & 45.2
+        \\ \hline
+        90 & 544320 & 364427 & 33.0 & 49.4
+        \\ \hline
+        100 & 599065 & 409111 & 31.7 & 46.4
+        \\ \hline
+      \end{tabular}
+      \captionof{table}{
+      Initial energy, final energy, total energy loss and the percentage of $E_{kin}$ of the total final energy after a time period of $2\tau_{crunch}$ with a step length of $10^{-3}\tau_{crunch}$, and $G = 986.96/N \textrm{ ly}^3/\tau_{crunch}^2\textrm{m}_{mean}$, for different number of particles $N$.
+      }
+      \label{EnergyRK4differentN}
+\end{table}
+
+\begin{table}[H]
+\centering
+    \begin{tabular}{|c|c|c|c|c|}\hline
+      	$t_final$ [$\tau_{crunch}$] & Initial Energy & Final energy & Energy loss (\%) & $E_{kin}$ of $E_{final}$  
+      	\\ \hline
+        2 & 276332 & 187268 & 32.2 & 47.6
+        \\ \hline
+        3 & 268708 & 170423 & 36.6 & 57.7
+        \\ \hline
+        4 & 302486 & 177473 & 41.3 & 70.4
+        \\ \hline
+      \end{tabular}
+      \captionof{table}{
+      Initial energy, final energy, total energy loss and the percentage of $E_{kin}$ of the total final energy for a system of $50$ particles and with $G = 986.96/N \textrm{ ly}^3/\tau_{crunch}^2\textrm{m}_{mean}$ after different time periods with a step length of $10^{-3}\tau_{crunch}$.
+      }
+      \label{EnergyRK4differenttime}
+\end{table}
+
+\fxnote{this looks like we have not reached equilibrium at this point!}
