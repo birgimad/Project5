@@ -7,6 +7,7 @@ The basic idea of the Velocity-Verlet algorithm is to write the Taylor expansion
 	\label{eq:TaylorExpVVmethod}
 \end{align}
 in which $\v{v}(t_i) = d\v{r}(t_i)/dt$ is the velocity, and $\v{a}(t_i) = d^2 \v{r}(t_i)/dt^2$ is the acceleration at time $t_i$.
+\cite[p. 248]{CompLectureNotes}
 Adding the two expressions in \matref{eq:TaylorExpVVmethod} gives
 \begin{align}
 	\v{r} (t_i +\delta t) = 2\v{r} (t_i) - \v{r} (t_i -\delta t)  + \v{a} (t_i ) \delta t^2 + \mathcal{O} (\delta t ^4 )

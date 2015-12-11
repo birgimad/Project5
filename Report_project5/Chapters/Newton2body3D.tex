@@ -25,16 +25,14 @@ Which yields that
 \begin{align}
 	y(t) = \int f(t,y) dt
 \end{align}
-\fxnote{do we need to write $y_{i+1}$ eq from p. 250 in lecture notes??}
 For the two bodies in a three dimensional Newtonian gravitational field this corresponds to six coupled differential equations given by the vector equations
 \begin{align}
 	\frac{d\v{r}}{dt} = \v{v}
 	\qquad \text{and} \qquad
-	\frac{d\v{v}}{dt} = - \frac{G M_1 M_2}{r^3} \v{r}
+	\frac{d\v{v}}{dt} = - \frac{G M_2}{r^3} \v{r}
 	\label{eq:diffEq2}
 \end{align}
-\fxnote{maybe we should divide by mass as on p. 248??}
-in which $M_1$ and $M_2$ \fxnote{fix the this with $M_1$ and $M_2$} are the masses of the two bodies, respectively, whilst $r$ is the distance between the bodies.
+in which $M_2$ is the masses of the the other bodies, whilst $r$ is the distance between the bodies.
 The equations in \eqref{eq:diffEq2} are computed by the script given below in which $drdt$ corresponds to the derivative of the coordinates of the position, and $dvdt$ corresponds to the derivative of the velocity coordinates. 
 \begin{lstlisting}
 void Derivative(double r[3], double v[3], double (&drdt)[3], double (&dvdt)[3], double G, double mass){

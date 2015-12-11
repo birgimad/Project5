@@ -1,3 +1,22 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{CompLectureNotes}
+M.~Hjorth-Jensen, ``Computational physics - lecture notes fall 2015,'' August
+  2015.
+
+\bibitem{BMWidentity}
+R.~Toral and A.~Chakrabarti, ``Generation of gaussian distributed random
+  numbers by using a numerical inversion method,'' {\em Computer Physics
+  Communications}, vol.~74, pp.~327--334, 1993.
+
+\bibitem{AddNotesAstroUniDist}
+H.~T. Ihle, ``On the, not entirely trivial, issue of getting uniformly
+  distributed random coordinates within a sphere.''
+
+\bibitem{Project5_CompPhys}
+``Project 5, astronomy project, n-body simulation of an open galactic
+  cluster.'' URL:
+  \url{https://github.com/CompPhysics/ComputationalPhysics1/blob/gh-pages/doc/Projects/Project5/project5_astro.pdf}.
+\newblock [Online access; 11/12-2015].
 
 \end{thebibliography}
