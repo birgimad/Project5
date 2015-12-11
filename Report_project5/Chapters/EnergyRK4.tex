@@ -1,62 +1,83 @@
 \section{Energy of the $N$-body Runge-Kutta Method}
 \label{sec:EnergyRK4}
 
-\fxnote{write here that we take minus solution}
 
-In the table below, the initial energies, final energies and energy losses are shown together with the percentage of kinetic energy of the total final energy for different number of particles $N$ after a time period of $2\tau_{crunch}$. 
-A clear tendency in the energy loss of about $32 \%$ for all considered sizes of systems. 
-Furthermore after the time period of $2\tau_{crunch}$, the kinetic energy constitutes to $40 \% - 50\%$ of the total energy for all the system sizes. 
-This, of course, yields a drastic decrease en the potential energy of the system, since the initial kinetic energy is set to zero. 
+To study the energy inside the system, only the particles that have not escaped are of interest. To find out which stars are still in the system, the kinetic energy K of the particle has to be smaller than the potential energy to remain bound to the system. These are the bound particles.   
+\begin{align}
+  K \leqslant -V
+\end{align}
+Giving a positive energy total if the kinetic energy is greater than the potential, and thus allowing the star to escape.
+
+In \tabref{tab:NpRK4} the initial energies, the number of bound particles, the final energies of the bound particles and, energy loss in percentage is shown. Her we can see how much energy is lost and if there is a connection between the number of particles in the system to begin with. There is an energy loss in the system, this i due to the ejected particles taking some energy away from the system. Yielding that the Energy is not conserved in the system. 
+
+From the energy loss there is no apparent connection between number of particles and how much energy the system looses in percentage. But as the number of particles is not larger than 100 and the system has not been tested several times for these values, it's not possible to make a conclusion if the energy loss is dependent on the number of particles. 
 
 
-\begin{table}[H]
-\centering
-    \begin{tabular}{|c|c|c|c|c|}\hline
-      	N & Initial Energy & Final energy & Energy loss (\%) & $E_{kin}$ of $E_{final}$  
-      	\\ \hline
-        10 & 62384 & 39075 & 37.4 & 40.3
-        \\ \hline
-        20 & 107840 & 73086 & 32.2 & 47.6
-        \\ \hline
-        30 & 180199 & 119402 & 33.7 & 49.1
-        \\ \hline
-        40 & 212556 & 146758 & 31.0 & 44.8
-        \\ \hline
-        50 & 276332 & 187268 & 33.2 & 47.6
-        \\ \hline
-        60 & 360979 & 246919 & 31.6 & 46.2
-        \\ \hline
-        70 & 407283 & 275201 & 32.4 & 48.0
-        \\ \hline
-        80 & 446740 & 307724 & 31.1 & 45.2
-        \\ \hline
-        90 & 544320 & 364427 & 33.0 & 49.4
-        \\ \hline
-        100 & 599065 & 409111 & 31.7 & 46.4
-        \\ \hline
-      \end{tabular}
-      \captionof{table}{
-      Initial energy, final energy, total energy loss and the percentage of $E_{kin}$ of the total final energy after a time period of $2\tau_{crunch}$ with a step length of $10^{-3}\tau_{crunch}$, and $G = 986.96/N \textrm{ ly}^3/\tau_{crunch}^2\textrm{m}_{mean}$, for different number of particles $N$.
-      }
-      \label{EnergyRK4differentN}
-\end{table}
 
 \begin{table}[H]
 \centering
-    \begin{tabular}{|c|c|c|c|c|}\hline
-      	$t_final$ [$\tau_{crunch}$] & Initial Energy & Final energy & Energy loss (\%) & $E_{kin}$ of $E_{final}$  
-      	\\ \hline
-        2 & 276332 & 187268 & 32.2 & 47.6
-        \\ \hline
-        3 & 268708 & 170423 & 36.6 & 57.7
-        \\ \hline
-        4 & 302486 & 177473 & 41.3 & 70.4
-        \\ \hline
-      \end{tabular}
-      \captionof{table}{
-      Initial energy, final energy, total energy loss and the percentage of $E_{kin}$ of the total final energy for a system of $50$ particles and with $G = 986.96/N \textrm{ ly}^3/\tau_{crunch}^2\textrm{m}_{mean}$ after different time periods with a step length of $10^{-3}\tau_{crunch}$.
-      }
-      \label{EnergyRK4differenttime}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+N = & Number of bound particles& $E_{initial}$ & $E_{Bound}$ & deviation \% \\
+\hline
+30  &  22 & -184057 & -231578  & -0.25 \\
+50  & 40 & -307864 & -484146 & -0.5725 \\
+70  & 51 & -421925 & -475997 & -0.1281 \\
+100 & 82 & -592577 & -807914 & -0.3634 \\
+\hline
+\end{tabular}
+\caption{The total initial energy and the final total energy of the bound particles, for different number of initial particles. For a time $\tau = 1.0$ }
+\label{tab:NpRK4}
 \end{table}
+
+%\begin{table}[H]
+%\centering
+%    \begin{tabular}{|c|c|c|c|c|}\hline
+%      	N & Initial Energy & Final energy & Energy loss (\%) & $E_{kin}$ of $E_{final}$  
+%      	\\ \hline
+%        10 & 62384 & 39075 & 37.4 & 40.3
+%        \\ \hline
+%        20 & 107840 & 73086 & 32.2 & 47.6
+%        \\ \hline
+%        30 & 180199 & 119402 & 33.7 & 49.1
+%        \\ \hline
+%        40 & 212556 & 146758 & 31.0 & 44.8
+%        \\ \hline
+%        50 & 276332 & 187268 & 33.2 & 47.6
+%        \\ \hline
+%        60 & 360979 & 246919 & 31.6 & 46.2
+%        \\ \hline
+%        70 & 407283 & 275201 & 32.4 & 48.0
+%        \\ \hline
+%        80 & 446740 & 307724 & 31.1 & 45.2
+%        \\ \hline
+%        90 & 544320 & 364427 & 33.0 & 49.4
+%        \\ \hline
+%        100 & 599065 & 409111 & 31.7 & 46.4
+%        \\ \hline
+%      \end{tabular}
+%      \captionof{table}{
+%      Initial energy, final energy, total energy loss and the percentage of $E_{kin}$ of the total final energy after a time period of $2\tau_{crunch}$ with a step length of $10^{-3}\tau_{crunch}$, and $G = 986.96/N \textrm{ ly}^3/\tau_{crunch}^2\textrm{m}_{mean}$, for different number of particles $N$.
+%      }
+%      \label{EnergyRK4differentN}
+%\end{table}
+
+%\begin{table}[H]
+%\centering
+%    \begin{tabular}{|c|c|c|c|c|}\hline
+%      	$t_final$ [$\tau_{crunch}$] & Initial Energy & Final energy & Energy loss (\%) & $E_{kin}$ of $E_{final}$  
+%      	\\ \hline
+%        2 & 276332 & 187268 & 32.2 & 47.6
+%        \\ \hline
+%        3 & 268708 & 170423 & 36.6 & 57.7
+%        \\ \hline
+%        4 & 302486 & 177473 & 41.3 & 70.4
+%        \\ \hline
+%      \end{tabular}
+%      \captionof{table}{
+%      Initial energy, final energy, total energy loss and the percentage of $E_{kin}$ of the total final energy for a system of $50$ particles and with $G = 986.96/N \textrm{ ly}^3/\tau_{crunch}^2\textrm{m}_{mean}$ after different time periods with a step length of $10^{-3}\tau_{crunch}$.
+%      }
+%      \label{EnergyRK4differenttime}
+%\end{table}
 
 \fxnote{this looks like we have not reached equilibrium at this point!}
